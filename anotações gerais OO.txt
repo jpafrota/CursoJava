@@ -1,0 +1,31 @@
+Classe
+
+- Descrição de um grupo de objeto
+
+* Nome da classe
+* Conjunto de atributos (descrição)
+* Conjunto de métodos (comportamento)
+
+ex: existem várias raças e características que definem um cachorro. cachorro seria uma classe.
+possuiria nome (cachorros), atributos (cor, raça, tamanho, peso, etc) e métodos (funções usadas para manipular a classe - comportamento).
+
+Objeto
+
+- Instância de uma determinada classe.
+Exemplo, eu crio uma classe cachorro com certos atributos
+Então, um objeto seria um "indivíduo" com todos os atributos daquela classe preenchidos. 
+Ex: objeto da clase cachorro, com cor amarela, raça pug, tamanho 1m, peso 10kg.
+
+MODIFICADORES
+
+Private: faz aquele atributo / método só ser visível dentro da própria classe
+Protected (default): faz aquele atributo / método só ser visível dentro do próprio pacote
+Public: qualquer um pode ter acesso àquele atributo / método, inclusive de outros pacotes
+
+Herança
+
+- Herdar atributos e métodos de uma outra classe.
+
+Polimorfismo
+
+- 
