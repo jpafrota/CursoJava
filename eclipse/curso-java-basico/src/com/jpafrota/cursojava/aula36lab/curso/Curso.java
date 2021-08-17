@@ -38,15 +38,16 @@ public class Curso {
 		
 		String info = "Curso: " + this.nome + "\n";
 		
-		info += "\n Professor: \n";
+		info += "\nProfessor: \n";
 		info += this.professor.obterInfo() + "\n\n";
 		
-		info += "\n Alunos \n\n";
+		info += "\nAlunos \n\n";
 		
 		int cont = 1;
 		for(Aluno aux : this.alunos) {
-			info += "Aluno " + cont;
+			info += "Aluno " + cont + "\n";
 			info += aux.obterInfo() + "\n\n";
+			cont++;
 		}
 		
 		return info;

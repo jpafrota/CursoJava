@@ -6,10 +6,12 @@ public class Aluno {
 	private String matricula;
 	private double[] notas;
 	
+	// Constructors
 	public Aluno() {
 		this.notas = new double[4];
 	}
-
+	// End of CONSTRUCTORS
+	
 	// Getters and Setters
 	public String getNome() {
 		return nome;
@@ -38,7 +40,18 @@ public class Aluno {
 	public void setNotasPos(double nota, int pos) {
 		this.notas[pos] = nota;
 	}
+	// End Of GETSET
 	
+	public double getMedia() {
+		
+		double soma = 0;
+		for (double aux : this.notas) {
+			soma += aux;
+		}
+		
+		return soma / notas.length;
+		
+	}
 	
 	public String obterInfo() {
 		
@@ -48,6 +61,10 @@ public class Aluno {
 		for(double aux : this.notas) {
 			info += aux + " ";
 		}
+		
+		info += "\nMédia: " + getMedia();
+		if(getMedia() >= 7) info += "\nAPROVADO!";
+		else info += "\nREPROVADO!";
 		
 		return info;
 		
