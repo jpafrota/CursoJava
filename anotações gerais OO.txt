@@ -24,7 +24,12 @@ Public: qualquer um pode ter acesso àquele atributo / método, inclusive de out
 
 Herança
 
-- Herdar atributos e métodos de uma outra classe.
+- Herdar atributos e métodos de uma outra classe. Uso do modificador "extends"
+EX:
+Aluno e professor possuem atributos como "nome", "endereco", "cpf" e "telefone".
+Mas os dois possuem outros atributos e métodos diferentes e exclusivos de cada um. Pode-se então agrupar os atributos em comum em uma superclasse chamada "Pessoa", onde contém nome, endereço, cpf e telefone. 
+O tipo de relacionamento da classe filha para a mãe é "é um / é uma"
+Ou seja, aluno é uma pessoa e professor é uma pessoa.
 
 Polimorfismo
 

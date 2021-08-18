@@ -1,4 +1,4 @@
-package com.jpafrota.cursojava.aula37;
+package com.jpafrota.cursojava.aula38;
 
 public class Professor extends Pessoa{
 

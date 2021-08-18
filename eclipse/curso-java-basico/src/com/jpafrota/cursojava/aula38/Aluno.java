@@ -1,10 +1,17 @@
-package com.jpafrota.cursojava.aula37;
+package com.jpafrota.cursojava.aula38;
 
 public class Aluno extends Pessoa {
 
 	
 	private String[] cursos;
 	private double[] notas;
+	
+	public Aluno() { }
+	
+	public Aluno(String nome, String cpf) {
+		super.setNome(nome);
+		this.setCpf(cpf);
+	}
 	
 	public String[] getCursos() {
 		return cursos;
