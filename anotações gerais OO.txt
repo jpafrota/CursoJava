@@ -59,3 +59,43 @@ também pode-se declarar Cachorro myAnimal2 = new Cachorro();
 
 também terá todas as funções acima e a saída de comer() retornará "nom nom"
 porém, desta forma myAnimal2 pode acessar métodos e atributos únicos que existem em Cachorro mas não em Animal.
+
+UMA RESPOSTA MUITO LEGAL Q UM CARA ME MANDOU NO YOUTUBE: 
+
+===========================================================================
+
+Great question! You can certainly do both, and using the superclass as the type has the limitations you noted. 
+Most of the time, you're just fine using the SubClass as the type, as you describe how you usually do it. However, there are situations where it makes sense to use the superclass, such as specifically when there is a polymorphic method like you noted. 
+
+Let's say you had an Instrument super class, and a bunch of sub classes of Instrument like Guitar, Trombone, Drum, etc. 
+Your Instrument class could have a play() method that makes a sound, and all subclasses would override that method with their own implementation.
+
+You could write a method that looks like this:
+
+void playSound (Instrument instrument){
+  System.out.println("Playing my sound: " + instrument.play());
+}
+
+This method doesn't know and doesn't care what type of instrument is passed in - it just needs it to be an Instrument, so that it knows it can call its play() method. 
+
+If you want to use that playSound() method in that kind of situation, you have to create your instrument like:
+
+Instrument drum = new Drum();
+playSound(drum);
+
+
+When working with collections, you'll probably run into similar situations, just with Interfaces instead of superclasses.
+
+For example, ArrayList is an implementation of the List interface. So usually when declaring an ArrayList, you should do this:
+List<String> names = new ArrayList<>();
+
+This list happens to use an ArrayList as its underlying implementation, but any method that takes a List of Strings doesn't care whether you use an ArrayList, or LinkedList, or whatever. Then you can have a method like this:
+void printNames (List<String> nameList) {
+   ...
+}
+
+Similar to the playSound() method above, this method doesn't care whether you used an ArrayList or some other kind of List implementation - it just needs to know it's some kind of List to do what it has to do. And the user of the method can use whatever type of List they want to use for their particular situation.
+
+That's a very long answer, but hope it helps clarify it a bit!
+
+==================================================================
