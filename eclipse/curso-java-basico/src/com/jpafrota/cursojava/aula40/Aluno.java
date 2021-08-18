@@ -1,4 +1,4 @@
-package com.jpafrota.cursojava.aula37;
+package com.jpafrota.cursojava.aula40;
 
 public class Aluno extends Pessoa {
 
@@ -19,5 +19,10 @@ public class Aluno extends Pessoa {
 		this.notas = notas;
 	}
 	
+	public String obterEtiquetaEndereco() {
+		
+		return "Endereço do Aluno: " + this.getEndereco();
+		
+	}
 	
 }

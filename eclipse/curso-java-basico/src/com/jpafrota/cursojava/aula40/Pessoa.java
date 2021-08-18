@@ -1,4 +1,4 @@
-package com.jpafrota.cursojava.aula37;
+package com.jpafrota.cursojava.aula40;
 
 public class Pessoa {
 
@@ -30,6 +30,16 @@ public class Pessoa {
 	}
 	public void setCpf(String cpf) {
 		this.cpf = cpf;
+	}
+	
+	public String obterEtiquetaEndereco() {
+		
+		return "Endereço" + this.endereco;
+		
+	}
+	
+	public void doSomething() {
+		System.out.println("classe pessoa");
 	}
 	
 }

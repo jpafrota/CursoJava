@@ -1,4 +1,4 @@
-package com.jpafrota.cursojava.aula37;
+package com.jpafrota.cursojava.aula40;
 
 public class Professor extends Pessoa{
 
@@ -25,5 +25,14 @@ public class Professor extends Pessoa{
 		Salario = salario;
 	}
 	
+	public String doAnything() {
+		return "classe professor";
+	}
+	
+	public String obterEtiquetaEndereco() {
+		
+		return "Endereço do Professor: " + this.getEndereco();
+		
+	}
 	
 }

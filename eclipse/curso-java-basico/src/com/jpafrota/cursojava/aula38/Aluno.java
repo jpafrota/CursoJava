@@ -9,6 +9,8 @@ public class Aluno extends Pessoa {
 	public Aluno() { }
 	
 	public Aluno(String nome, String cpf) {
+		// Tanto super quanto this nesse caso referenciam as funcoes da superclasse
+		// Tanto faz qua usar.
 		super.setNome(nome);
 		this.setCpf(cpf);
 	}

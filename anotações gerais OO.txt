@@ -22,7 +22,9 @@ Private: faz aquele atributo / método só ser visível dentro da própria class
 Protected (default): faz aquele atributo / método só ser visível dentro do próprio pacote
 Public: qualquer um pode ter acesso àquele atributo / método, inclusive de outros pacotes
 
-Herança
+----------------- Herança --------------------
+
+https://docs.oracle.com/javase/tutorial/java/IandI/subclasses.html
 
 - Herdar atributos e métodos de uma outra classe. Uso do modificador "extends"
 EX:
@@ -31,6 +33,29 @@ Mas os dois possuem outros atributos e métodos diferentes e exclusivos de cada 
 O tipo de relacionamento da classe filha para a mãe é "é um / é uma"
 Ou seja, aluno é uma pessoa e professor é uma pessoa.
 
-Polimorfismo
+----------------- Polimorfismo ------------------
 
-- 
+https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
+
+- Polimorfismo é a capacidade de um objeto de se comportar de diferentes formas dependendo de certas características.
+
+Por exemplo,
+
+imagine a classe do tipo Animal
+
+E as subclasses Cachorro e Gato que herdam a classe acima.
+
+Todo animal tem a função comer() que retorna "chomp chomp"
+
+Cachorro e gato herdam todas essas funções também, mas pode ser que o cachorro coma de um jeito diferente. então posso >sobrescrever< o método comer() na classe cachorro, usando mesmo nome e parâmetros para mudar o comportamento da função comer e fazer com que ela retorne "nom nom".
+
+Declarando Animal myAnimal1 = new Cachorro();
+
+quando for chamada a funcao myAnimal1.comer();
+
+a saída retornará "nom nom" pois o método foi sobrescrito.
+
+também pode-se declarar Cachorro myAnimal2 = new Cachorro();
+
+também terá todas as funções acima e a saída de comer() retornará "nom nom"
+porém, desta forma myAnimal2 pode acessar métodos e atributos únicos que existem em Cachorro mas não em Animal.
