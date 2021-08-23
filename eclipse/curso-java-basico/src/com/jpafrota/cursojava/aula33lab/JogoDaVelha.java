@@ -105,6 +105,7 @@ public class JogoDaVelha {
 			}
 			
 		}
+		
 		if( (tabuleiro[0][0] == tabuleiro[1][1])
 				&& (tabuleiro[1][1] == tabuleiro[2][2])
 				&& (tabuleiro[0][0] != null) ) ganhou = true;
