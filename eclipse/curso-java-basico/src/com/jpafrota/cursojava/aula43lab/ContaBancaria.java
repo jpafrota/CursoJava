@@ -68,6 +68,11 @@ public class ContaBancaria {
 		
 	}
 	
+	public void mostrarSaldo() {
+		System.out.println("Saldo: R$" + this.getSaldo());
+		
+	}
+	
 	public String toString() {
 		
 		String s = "Tipo: " + this.tipo + "\n";

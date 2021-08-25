@@ -36,6 +36,7 @@ public class ContaEspecial extends ContaBancaria {
 			saldo -= saque;
 			this.setSaldo(saldo);
 			atualizarLimite();
+			return true;
 		}
 		
 		return false;
@@ -45,6 +46,13 @@ public class ContaEspecial extends ContaBancaria {
 	public void depositar(double deposito) {
 		super.depositar(deposito);
 		atualizarLimite();
+	}
+	
+	public void mostrarSaldo() {
+		
+		super.mostrarSaldo();
+		System.out.println("Limite Disponível: R$" + this.limiteDisponivel);
+		
 	}
 	
 	private void atualizarLimite() {
