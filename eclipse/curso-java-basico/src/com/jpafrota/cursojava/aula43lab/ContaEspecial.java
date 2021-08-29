@@ -31,7 +31,7 @@ public class ContaEspecial extends ContaBancaria {
 			super.sacar(saque);
 			return true;
 		}
-		else if(saque <= Math.abs(this.getSaldo()) + limiteDisponivel){
+		else if(Math.abs(this.getSaldo() - saque) <=  limiteDisponivel){
 			double saldo = this.getSaldo();
 			saldo -= saque;
 			this.setSaldo(saldo);
