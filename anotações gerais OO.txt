@@ -99,3 +99,9 @@ Similar to the playSound() method above, this method doesn't care whether you us
 That's a very long answer, but hope it helps clarify it a bit!
 
 ==================================================================
+
+OVERRIDING:
+Sobrescrever métodos da classe pai na classe atual.
+
+OVERLOADING:
+Sobrescrever métodos da mesma classe, com o mesmo nome, mas diferentes parâmetros (também pode-se usar diferentes tipos de retorno, desde que os parâmetros sejam alterados obrigatoriamente).

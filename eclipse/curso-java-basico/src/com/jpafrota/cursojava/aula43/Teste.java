@@ -32,7 +32,7 @@ public class Teste {
 		System.out.println(aluno1.equals(aluno2));
 		
 		// No exemplo abaixo é possível ver em prática a sobrescrita do método equals
-		// A classe String sobrescreve esse método e compara o conteúdo da variável ao invés do endereço de memória.
+		// A classe String sobrescreve esse método por padrão, comparando o conteúdo das variáveis ao invés do endereço de memória.
 		String testando = "dasdasd";
 		String testeee = "dasdasd";
 		
