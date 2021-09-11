@@ -22,4 +22,8 @@ public class Aluno extends Pessoa {
 		System.out.println("aluno");
 	}
 	
+	public void funcaoQualquer() {
+		System.out.println("TESTE");
+	}
+	
 }

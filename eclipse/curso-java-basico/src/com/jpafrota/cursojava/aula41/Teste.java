@@ -19,6 +19,10 @@ public class Teste {
 		imprimirEndereco(aluno);
 		aluno.setEndereco("Rua E");
 		professor.setEndereco("Rua A");
+		
+		// o código abaixo não funciona pois como já foi visto, ao instanciar um aluno de um TIPO diferente,
+		// não obtemos acesso aos métodos daquela classe. somente os métodos referentes ao tipo declarado, que é Pessoa.
+		// aluno.funcaoQualquer();
 
 		// Métodos e atributos da superclasse abstrata podem ser usados por suas subclasses normalmente.
 		System.out.println(aluno.obterEtiquetaEndereco());
