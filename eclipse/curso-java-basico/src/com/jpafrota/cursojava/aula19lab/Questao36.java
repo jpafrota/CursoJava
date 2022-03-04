@@ -7,8 +7,6 @@ public class Questao36 {
 
 	public static void main(String[] args) {
 
-		Scanner scan = new Scanner(System.in);
-		
 		int[] vetA = new int[11];
 		
 		for(int i = 0; i < vetA.length; i++) {

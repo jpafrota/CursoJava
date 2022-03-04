@@ -2,7 +2,7 @@ package com.jpafrota.cursojava.aula36lab.agenda;
 
 import java.util.Scanner;
 
-public class Questao01 {
+public class Exer03 {
 
 	public static void main(String[] args) {
 

@@ -6,8 +6,6 @@ public class Questao01 {
 
 	public static void main(String[] args) {
 
-		Scanner scan = new Scanner(System.in);
-		
 		int M[][] = new int[4][4];
 		
 		int[] pos = {0, 0};

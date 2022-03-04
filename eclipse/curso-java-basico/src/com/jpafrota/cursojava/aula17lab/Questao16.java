@@ -6,8 +6,6 @@ public class Questao16 {
 
 	public static void main(String[] args) {
 
-		Scanner scan = new Scanner(System.in);
-
 		int soma = 1;
 		int anterior = soma;
 		int aux;

@@ -6,8 +6,6 @@ public class Questao26 {
 
 	public static void main(String[] args) {
 
-		Scanner scan = new Scanner(System.in);
-		
 		int[] vetA = new int[10];
 		int[] vetB = new int[10];
 		int[] vetC = new int[10];

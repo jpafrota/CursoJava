@@ -1,14 +1,12 @@
 package com.jpafrota.cursojava.aula43;
 
-import java.lang.Math;
-
 public class Teste {
 
 	public static void main(String[] args) {
 
 		Aluno aluno1 = new Aluno();
 		
-		aluno1.setCursos("Ciência da Computação");
+		aluno1.setCursos("Ciï¿½ncia da Computaï¿½ï¿½o");
 		
 		double[] notas = {10, 9, 8, 7};
 		
@@ -16,23 +14,23 @@ public class Teste {
 		
 		Aluno aluno2 = new Aluno();
 		
-		aluno2.setCursos("Ciência da Computação");
+		aluno2.setCursos("Ciï¿½ncia da Computaï¿½ï¿½o");
 		
 		double[] notas2 = {10, 9, 8, 7};
 		
 		aluno2.setNotas(notas2);
 		
-		// Tanto aluno1 == aluno2 e aluno1.equals(aluno2); darão o mesmo resultado.
+		// Tanto aluno1 == aluno2 e aluno1.equals(aluno2); darï¿½o o mesmo resultado.
 		// Mesmo que aluno1 e aluno2 sejam iguais em seus atributos
-		// Isso porque, por default, Java compara apenas a referência dos objetos
-		// Ou seja, só daria true se fosse o mesmo endereço de memória
-		// O método "equals" funciona do mesmo jeito, quando herdado da classe OBJECT
-		// Mas é possível sobrescrever esse método dentro da classe aluno
+		// Isso porque, por default, Java compara apenas a referï¿½ncia dos objetos
+		// Ou seja, sï¿½ daria true se fosse o mesmo endereï¿½o de memï¿½ria
+		// O mï¿½todo "equals" funciona do mesmo jeito, quando herdado da classe OBJECT
+		// Mas ï¿½ possï¿½vel sobrescrever esse mï¿½todo dentro da classe aluno
 		System.out.println(aluno1 == aluno2);
 		System.out.println(aluno1.equals(aluno2));
 		
-		// No exemplo abaixo é possível ver em prática a sobrescrita do método equals
-		// A classe String sobrescreve esse método por padrão, comparando o conteúdo das variáveis ao invés do endereço de memória.
+		// No exemplo abaixo ï¿½ possï¿½vel ver em prï¿½tica a sobrescrita do mï¿½todo equals
+		// A classe String sobrescreve esse mï¿½todo por padrï¿½o, comparando o conteï¿½do das variï¿½veis ao invï¿½s do endereï¿½o de memï¿½ria.
 		String testando = "dasdasd";
 		String testeee = "dasdasd";
 		

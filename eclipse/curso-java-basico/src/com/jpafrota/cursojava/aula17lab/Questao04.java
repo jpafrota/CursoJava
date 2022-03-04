@@ -6,8 +6,6 @@ public class Questao04 {
 
 	public static void main(String[] args) {
 
-		Scanner scan = new Scanner(System.in);
-		
 		int a = 80000;
 		int b = 200000;
 		
@@ -22,8 +20,8 @@ public class Questao04 {
 		}
 		
 		System.out.println("Anos passados: " + anos);
-		System.out.println("Valor da população da cidade A: " + a);
-		System.out.println("Valor da população da cidade B: " + b);
+		System.out.println("Valor da populaï¿½ï¿½o da cidade A: " + a);
+		System.out.println("Valor da populaï¿½ï¿½o da cidade B: " + b);
 
 	}
 

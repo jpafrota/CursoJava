@@ -1,6 +1,6 @@
 package com.jpafrota.cursojava.aula19lab;
 
-public class Questão01 {
+public class Questao01 {
 
 	public static void main(String[] args) {
 
