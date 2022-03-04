@@ -28,7 +28,7 @@ class Matriz {
 		gerarMatriz(n);
 	}
 	
-	public void gerarMatriz(int n) {
+	private void gerarMatriz(int n) {
 		
 		Random gerador = new Random();
 		
@@ -95,24 +95,23 @@ public class MultiplicacaoMatrizes {
 
 		Random gerador = new Random();
 		
-		// In this exercise, matrices can have between 2x2 and 10x10 size.
-		int tamanhoMatriz = gerador.nextInt(9) + 2;
+		// NxN size
+		int n = gerador.nextInt(9) + 2;
 		
-		System.out.println("Generating matrix A " + tamanhoMatriz + "x" + tamanhoMatriz + "...");
-		Matriz matrizA = new Matriz(tamanhoMatriz);
+		System.out.println("Matrix A " + n + "x" + n + ":");
+		Matriz matrizA = new Matriz(n);
 		matrizA.imprimir();
 		
-		System.out.println("Generating matrix B " + tamanhoMatriz + "x" + tamanhoMatriz + "...");
-		Matriz matrizB = new Matriz(tamanhoMatriz);
+		System.out.println("Matrix B " + n + "x" + n + ":");
+		Matriz matrizB = new Matriz(n);
 		matrizB.imprimir();
 		
-		Matriz matrizC = new Matriz(tamanhoMatriz);
+		Matriz matrizC = new Matriz(n);
 		
-		// Thread Pool
 		ExecutorService multiplicador = Executors.newFixedThreadPool(5);
 		
-		for(int i = 0; i < tamanhoMatriz; i++) {
-			for(int j = 0; j < tamanhoMatriz; j++) {
+		for(int i = 0; i < n; i++) {
+			for(int j = 0; j < n; j++) {
 				
 				multiplicador.submit(new Multiplicador(matrizA, matrizB, matrizC, i, j));
 			
@@ -120,11 +119,8 @@ public class MultiplicacaoMatrizes {
 		}
 		
 		multiplicador.shutdown();
-
 		System.out.println("\n> All tasks submitted\n");
 
-		// This block guarantees that Matrix C will only be printed after all multiplications have been completed.
-		// After shutdown above, or after 10 seconds.
 		try {
 			multiplicador.awaitTermination(10, TimeUnit.SECONDS);
 		} catch (InterruptedException ignored) {}
