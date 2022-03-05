@@ -1,5 +1,6 @@
 # CursoJava
 
-Exercícios e códigos diversos do curso de Java. Contém classes e arquivos usados na Eclipse IDE.
+Exercises from my Java courses. Here you'll find classes and files used in Eclipse IDE. 
+Until now, I've covered the basics of Java language and OOP, as well as Multi-Threaded Programming.
 
-Os arquivos estão sem build, apenas com o código fonte e algumas anotações sobre o curso, para facilitar a leitura dos commits e economizar espaço.
+No builds were saved in this repository, only the source codes.
