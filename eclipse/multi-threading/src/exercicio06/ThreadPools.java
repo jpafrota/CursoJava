@@ -28,7 +28,6 @@ class Deposito {
 
 		// Explicit Lock
 		synchronized (lock1) {
-
 			
 			System.out.println("Tentando adicionar na caixa...");
 
