@@ -10,12 +10,12 @@ public class Teste {
 		
 		Circulo f2 = new Circulo();
 		f2.setRaio(2);
-		f2.setNome("CÌrculo");
+		f2.setNome("C√≠rculo");
 		
 		Triangulo f3 = new Triangulo();
 		f3.setAltura(2);
 		f3.setBase(3);
-		f3.setNome("Tri‚ngulo");
+		f3.setNome("Tri√¢ngulo");
 		
 		Cubo f4 = new Cubo();
 		f4.setAresta(3);
@@ -32,7 +32,7 @@ public class Teste {
 		f6.setArestaBase(2);
 		f6.setNumPoliBase(4);
 		f6.setBase(f1);
-		f6.setNome("Pir‚mide");
+		f6.setNome("Pir√¢mide");
 		
 		FiguraGeometrica figuras[] = new FiguraGeometrica[6];
 		figuras[0] = f1;
@@ -49,7 +49,7 @@ public class Teste {
 			System.out.println(figura.toString());
 			System.out.println("----------------\n");
 			
-			// TambÈm poderia ser feito da seguinte forma, usando
+			// Tamb√©m poderia ser feito da seguinte forma, usando
 			// instanceof:
 			
 			/*

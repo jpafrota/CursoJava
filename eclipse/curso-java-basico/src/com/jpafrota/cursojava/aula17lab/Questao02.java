@@ -12,7 +12,7 @@ public class Questao02 {
 		
 		
 		
-		System.out.println("Digite seu nome de usu·rio: ");
+		System.out.println("Digite seu nome de usu√°rio: ");
 		userName = scan.next();
 		
 		do {
@@ -21,10 +21,10 @@ public class Questao02 {
 			password = scan.next();
 			
 			if(password.equalsIgnoreCase(userName)) {
-				System.out.println("ERRO! Senha n„o pode conter o nome de usu·rio.\n");
+				System.out.println("ERRO! Senha n√£o pode conter o nome de usu√°rio.\n");
 			}
 			else {
-				System.out.println("Usu·rio criado com sucesso");
+				System.out.println("usu√°rio criado com sucesso");
 			}
 		
 		} while (password.equalsIgnoreCase(userName));

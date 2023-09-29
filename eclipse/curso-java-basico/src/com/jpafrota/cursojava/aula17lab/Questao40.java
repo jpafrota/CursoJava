@@ -25,7 +25,7 @@ public class Questao40 {
 			System.out.println("Digite o numero de veiculos em passeio: ");
 			qtdVeiculos = scan.nextInt();
 			
-			System.out.println("Digite o numero de acidentes com vítimas: ");
+			System.out.println("Digite o numero de acidentes com vÃ­timas: ");
 			qtdAcidentes = scan.nextInt();
 
 			if(somaAcidentes == 0) {
@@ -56,12 +56,12 @@ public class Questao40 {
 		mediaAcidentes = somaAcidentes / somaPeqCidades;
 		
 		System.out.println("\nEstatisticas\n");
-		System.out.print("Maior índice de acidentes: " + maiorQtdAcidentes);
+		System.out.print("Maior Ã­ndice de acidentes: " + maiorQtdAcidentes);
 		System.out.println(" Cidade: " + maiorCidade);
-		System.out.print("Menor índice de acidentes: " + menorQtdAcidentes);
+		System.out.print("Menor Ã­ndice de acidentes: " + menorQtdAcidentes);
 		System.out.println(" Cidade: " + menorCidade);
-		System.out.println("Média de veículos total: " + mediaVeiculos);
-		System.out.println("Média de acidentes em cidades pequenas: " + mediaAcidentes);
+		System.out.println("MÃ©dia de veÃ­culos total: " + mediaVeiculos);
+		System.out.println("MÃ©dia de acidentes em cidades pequenas: " + mediaAcidentes);
 		
 	}
 

@@ -11,7 +11,7 @@ public class Questao18 {
 		System.out.print("Entre com um dia: ");
 		int dia = scan.nextInt();
 		
-		System.out.print("Entre com um mês: ");
+		System.out.print("Entre com um mÃªs: ");
 		int mes = scan.nextInt();
 		
 		System.out.print("Entre com um ano: ");
@@ -20,21 +20,21 @@ public class Questao18 {
 		int erro = 0;
 		
 		if(dia < 0 || dia > 31) {
-			System.out.println("ERRO! Dia inválido.");
+			System.out.println("ERRO! Dia invÃ¡lido.");
 			erro++;
 		}
 		
 		if(mes < 0 || mes > 12) {
-			System.out.println("ERRO! Mês inválido");
+			System.out.println("ERRO! MÃªs invÃ¡lido");
 			erro++;
 		}
 
 		if(ano < 0) {
-			System.out.println("ERRO! Ano inválido");
+			System.out.println("ERRO! Ano invÃ¡lido");
 			erro++;
 		}
 		
-		if(erro == 0) System.out.println("Data válida!!");
+		if(erro == 0) System.out.println("Data vÃ¡lida!!");
 		
 	}
 }

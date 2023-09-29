@@ -39,7 +39,7 @@ public class Questao30 {
 			System.out.print(vetB[i] + " | ");
 		}
 		
-		System.out.println("\nÍmpares: ");
+		System.out.println("\nÃ­mpares: ");
 		for(int i = 0; i < posC; i++) {
 			System.out.print(vetC[i] + " | ");
 		}

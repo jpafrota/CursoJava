@@ -1,4 +1,4 @@
-//QUESTÃO 10: Faça um Programa que peça a temperatura em graus Celsius, 
+//QUESTÃƒO 10: FaÃ§a um Programa que peÃ§a a temperatura em graus Celsius,
 //transforme e mostre em graus Farenheit.
 
 package com.jpafrota.cursojava.aula13lab;
@@ -16,7 +16,7 @@ public class Questao10 {
 		
 		double tempFahrenheit = (9 * tempCelsius)/5 + 32;
 		
-		System.out.println("A temperatura em Fahrenheit é: " + tempFahrenheit + " °C");
+		System.out.println("A temperatura em Fahrenheit Ã© " + tempFahrenheit + " ÂºC");
 		
 	}
 

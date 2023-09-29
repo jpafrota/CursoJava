@@ -11,7 +11,7 @@ public class ContaPoupanca extends ContaBancaria {
 	public ContaPoupanca(String nomeCliente, String numConta, double saldo, int diaRendimento) {
 		super(nomeCliente, numConta, saldo);
 		this.diaRendimento = diaRendimento;
-		super.setTipo("Poupança");
+		super.setTipo("PoupanÃ§a");
 	}
 
 	public int getDiaRendimento() {

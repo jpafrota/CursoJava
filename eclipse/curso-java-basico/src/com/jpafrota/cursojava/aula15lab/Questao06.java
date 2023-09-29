@@ -23,7 +23,7 @@ public class Questao06 {
 		
 		if(valor3 > maior) maior = valor3;
 		
-		System.out.println("O maior número digitado foi: " + maior);
+		System.out.println("O maior nÃºmero digitado foi: " + maior);
 		
 	}
 

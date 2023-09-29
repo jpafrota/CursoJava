@@ -22,23 +22,23 @@ public class Questao15 {
 		if ((lado1 + lado2) > lado3 && (lado2 + lado3) > lado1 && (lado1 + lado3) > lado2) {
 
 			if (lado1 == lado2 && lado3 == lado1 && lado3 == lado2) {
-				tipo = "EQUIL¡TERO";
+				tipo = "EQUIL√ÅTERO";
 			}
 
 			else if (lado1 == lado2 || lado3 == lado1 || lado3 == lado2) {
-				tipo = "IS”SCELES";
+				tipo = "IS√ìSCELES";
 			}
 
 			else {
 				tipo = "ESCALENO";
 			}
 
-			System.out.println("A figura informada È um tri‚ngulo do tipo: " + tipo);
+			System.out.println("A figura informada √© um tri√¢ngulo do tipo: " + tipo);
 
 		}
 		
 		else {
-			System.out.println("A figura informada n„o È um tri‚ngulo.");
+			System.out.println("A figura informada n√£o √© um tri√¢ngulo.");
 		}
 		
 		

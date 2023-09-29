@@ -24,7 +24,7 @@ public class Aluno {
 		System.out.println("aluno");
 	}
 
-	// método toString da superclasse Object
+	// mÃ©todo toString da superclasse Object
 	public String toString() {
 		return "Aluno [cursos=" + cursos + ", notas=" + Arrays.toString(notas) + "]";
 	}

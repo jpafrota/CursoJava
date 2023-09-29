@@ -20,7 +20,7 @@ public class Questao34 {
 			
 		}
 		
-		System.out.print("É Primo: ");
+		System.out.print("Ã‰ Primo: ");
 		System.out.println(ehPrimo);
 		
 	}

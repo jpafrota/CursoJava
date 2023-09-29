@@ -1,4 +1,4 @@
-//QUESTÃO 06: Faça um programa que peça o raio de um círculo, calcule e mostre sua área.
+//QUESTÃƒO 06: FaÃ§a um programa que peÃ§a o raio de um cÃ­rculo, calcule e mostre sua Ã¡rea.
 
 package com.jpafrota.cursojava.aula13lab;
 
@@ -13,7 +13,7 @@ public class Questao06 {
 		System.out.print("Digite o valor do raio (em metros): ");
 		double raio = scan.nextDouble();
 		
-		System.out.print("O valor da área é: " + 3.14 * (raio * raio) + "m²");
+		System.out.print("O valor da Ã¡rea Ã© " + 3.14 * (raio * raio) + "mÂ²");
 		
 		
 	}

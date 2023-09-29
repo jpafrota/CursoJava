@@ -14,7 +14,7 @@ public class Questao23 {
 
 		for (int i = 2; i < numero; i++) {
 
-			// a condição ehPrimo == true garante que o laço não seja executado caso encontre algum divisor entre 2 e j. 
+			// a condiÃ£oo ehPrimo == true garante que o laÃ§o nÃ£o seja executado caso encontre algum divisor entre 2 e j.
 			for (int j = 2; j < i && ehPrimo == true; j++) {
 				
 				if (i % j == 0) {

@@ -18,7 +18,7 @@ public class Carro {
 		
 	}
 	
-	// … uma boa pr·tica de programaÁ„o Java sempre manter o construtor vazio mesmo j· tendo inicializado outro.
+	// √â uma boa pr√°tica de programa√ß√£o Java sempre manter o construtor vazio mesmo j√° tendo inicializado outro.
 	public Carro(){
 		
 	}

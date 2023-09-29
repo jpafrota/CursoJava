@@ -20,19 +20,19 @@ public class Questao16 {
 		double delta = Math.pow(b, 2) - (4 * a * c);
 		
 		if (delta == 0) {
-			System.out.println("A equação possui duas raízes iguais.");
+			System.out.println("A equaÃ£oo possui duas raÃ­zes iguais.");
 			System.out.println("x1: " + (-b/(2*a)) );
 			System.out.println("x2: " + (-b/(2*a)) );
 		}
 		
 		else if (delta < 0) {
-			System.out.println("A equação não possui raízes reais.");
+			System.out.println("A equaÃ£oo nÃ£o possui raÃ­zes reais.");
 		}
 		
 		else {
 			double x1 = ( -b + Math.sqrt(delta) ) / (2 * a);
 			double x2 = ( -b - Math.sqrt(delta) ) / (2 * a);
-			System.out.println("A equação possui duas raízes reais.");
+			System.out.println("A equaÃ£oo possui duas raÃ­zes reais.");
 			System.out.println("x1: " + x1);
 			System.out.println("x2: " + x2);
 		}

@@ -13,10 +13,10 @@ public class MultiplosCatchGenerico {
 				System.out.println(numeros[i] + "/" + denominadores[i] + " = " + (numeros[i] / denominadores[i]));
 			}
 			
-			// a classe Throwable È superclasse de todas as exceptions E ERROS
-			// usar Throwable n„o È uma boa pr·tica
-			// ao invÈs disso utilizamos a classe Exception
-			// que È a superclasse de todas as exceÁıes, n„o erros.
+			// a classe Throwable √© superclasse de todas as exceptions E ERROS
+			// usar Throwable n√£o √© uma boa pr√°tica
+			// ao inv√©s disso utilizamos a classe Exception
+			// que √© a superclasse de todas as exce√ß√µes, n√£o erros.
 			catch (Exception exc) {
 				System.out.println("Erro: " + exc.getMessage());
 				exc.printStackTrace();

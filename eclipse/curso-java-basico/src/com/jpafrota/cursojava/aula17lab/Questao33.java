@@ -25,7 +25,7 @@ public class Questao33 {
 
 		media = soma / qtd;
 		
-		System.out.println("\nA média das temperaturas é de " + media + "°C");
+		System.out.println("\nA mÃ©dia das temperaturas Ã© de " + media + "ÂºC");
 		
 	}
 

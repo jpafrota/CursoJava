@@ -17,14 +17,14 @@ public class Questao03 {
 		camelo.setVelocidade(2);
 		
 		Peixe tubarao = new Peixe();
-		tubarao.setNome("Tubar„o");
+		tubarao.setNome("Tubar√£o");
 		tubarao.setComprimento(300);
 		tubarao.setCor("Cinzento");
 		tubarao.setVelocidade(1.5);
 		tubarao.setCaracteristicas("Barbatanas e cauda");
 		
 		Mamifero ursoDoCanada = new Mamifero();
-		ursoDoCanada.setNome("Urso-do-Canad·");
+		ursoDoCanada.setNome("Urso-do-Canad√°");
 		ursoDoCanada.setComprimento(180);
 		ursoDoCanada.setCor("Vermelho");
 		ursoDoCanada.setVelocidade(0.5);

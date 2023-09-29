@@ -13,7 +13,7 @@ public class Exer03 {
 		System.out.println("Digite o nome do aluno: ");
 		aluno.nome = scan.nextLine();
 		
-		System.out.println("Digite a matrícula do aluno: ");
+		System.out.println("Digite a matrÃ­cula do aluno: ");
 		aluno.matricula = scan.nextInt();
 		scan.nextLine();
 		

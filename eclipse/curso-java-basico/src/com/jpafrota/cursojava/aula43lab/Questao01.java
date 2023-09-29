@@ -9,7 +9,7 @@ public class Questao01 {
 			System.out.println("Valor do saque: R$" + valor);
 			
 		} else {
-			System.out.println("Saque n�o realizado. Saldo Insuficiente.");
+			System.out.println("Saque não realizado. Saldo Insuficiente.");
 			System.out.println("Tentativa de saque: R$" + valor);
 		}
 		conta.mostrarSaldo();
@@ -22,7 +22,7 @@ public class Questao01 {
 		ContaEspecial contaEspecial = new ContaEspecial("Jorge", "466220", 1500, 500);
 		ContaPoupanca contaPoupanca = new ContaPoupanca("Maycon", "713987", 200, 25);
 		
-		// Imprimindo as informa��es das contas.
+		// Imprimindo as informações das contas.
 		System.out.println(contaSimples.toString());
 		System.out.println(contaPoupanca.toString());
 		System.out.println(contaEspecial.toString());

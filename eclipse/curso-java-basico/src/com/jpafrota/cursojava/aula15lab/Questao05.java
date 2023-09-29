@@ -17,11 +17,11 @@ public class Questao05 {
 		double media = (nota1 + nota2)/2;
 		
 		if(media >= 10) {
-			System.out.println("Parabéns! Você passou com distinção!");
+			System.out.println("ParabÃ©ns! vocÃª passou com distinÃ£oo!");
 		} else if(media >= 7) {
-			System.out.println("Você foi aprovado!");
+			System.out.println("vocÃª foi aprovado!");
 		} else {
-			System.out.println("Você está reprovado. Se esforce mais.");
+			System.out.println("vocÃª estÃ¡ reprovado. Se esforce mais.");
 		}
 		
 	}

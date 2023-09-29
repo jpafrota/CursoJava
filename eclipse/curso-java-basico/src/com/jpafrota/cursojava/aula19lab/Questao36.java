@@ -1,8 +1,5 @@
 package com.jpafrota.cursojava.aula19lab;
 
-import java.util.Scanner;
-import java.lang.Math;
-
 public class Questao36 {
 
 	public static void main(String[] args) {

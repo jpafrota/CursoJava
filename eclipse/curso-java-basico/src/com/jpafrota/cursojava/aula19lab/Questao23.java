@@ -15,7 +15,7 @@ public class Questao23 {
 			
 		}
 		
-		// Verificação
+		// VerificaÃ§Ã£o
 		for(int aux : vetA) {
 			
 			System.out.print(aux + " ");
@@ -23,7 +23,7 @@ public class Questao23 {
 				
 		}
 		
-		System.out.print("\nTodos os números são pares: " + flag);
+		System.out.print("\nTodos os nÃºmeros sÃ£o pares: " + flag);
 		
 		
 		

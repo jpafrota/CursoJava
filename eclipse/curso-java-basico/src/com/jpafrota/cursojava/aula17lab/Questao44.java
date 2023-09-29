@@ -18,9 +18,9 @@ public class Questao44 {
 		int somaBrancos = 0;
 
 		System.out.println("-=-=- TRE Amazonas -=-=-");
-		System.out.println("Tabela de Votação");
+		System.out.println("Tabela de VotaÃ§Ã£o");
 		System.out.println("\n1 - Bolsonaro\n2 - Lula\n3 - Ciro Gomes\n4 - Loiane Groner");
-		System.out.println("5 - Voto nulo\n6 - Voto em branco\n0 - Finalizar Votação");
+		System.out.println("5 - Voto nulo\n6 - Voto em branco\n0 - Finalizar VotaÃ§Ã£o");
 
 		do {
 			

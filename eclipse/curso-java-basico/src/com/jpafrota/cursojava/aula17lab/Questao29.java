@@ -1,6 +1,5 @@
 package com.jpafrota.cursojava.aula17lab;
 
-import java.util.Scanner;
 import java.text.DecimalFormat;
 
 
@@ -10,7 +9,7 @@ public class Questao29 {
 
 		DecimalFormat df = new DecimalFormat("###,###.###");
 		
-		System.out.println("Loja Quase Dois - Tabela de Pre�os");
+		System.out.println("Loja Quase Dois - Tabela de preços");
 		
 		for(int i = 1; i <= 50; i++) {
 			

@@ -1,7 +1,5 @@
 package com.jpafrota.cursojava.aula19lab;
 
-import java.lang.Math;
-
 public class Questao04 {
 
 	public static void main(String[] args) {

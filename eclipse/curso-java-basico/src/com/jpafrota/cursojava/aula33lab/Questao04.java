@@ -24,7 +24,7 @@ public class Questao04 {
 			coluna = validarEntrada("Coluna", scan);
 			
 			if(jogodavelha.verificarPosicao(linha, coluna)) {
-				System.out.println("PosiÁ„o j· possui valor. Tente novamente.");
+				System.out.println("Posi√ß√£o j√° possui valor. Tente novamente.");
 			}
 			else {
 				jogodavelha.jogarPeca(linha, coluna);
@@ -35,7 +35,7 @@ public class Questao04 {
 		} while(!jogodavelha.isGanhou() && jogodavelha.getQtdPecas() < 9);
 		
 		if(jogodavelha.isGanhou()) System.out.println("PARABENS!!! GANHADOR: JOGADOR " + ((jogodavelha.getJogador() % 2)+1));
-		else System.out.println("NINGU…M GANHOU ESSA PARTIDA.");
+		else System.out.println("NINGU√âM GANHOU ESSA PARTIDA.");
 		jogodavelha.mostrarTabuleiro();
 		
 	}
@@ -46,7 +46,7 @@ public class Questao04 {
 		do {
 			System.out.print(tipo + ": ");
 			valor = scan.nextInt();
-			if(valor < 1 || valor > 3) System.out.println(tipo + " inv·lida. Tente novamente.\n");
+			if(valor < 1 || valor > 3) System.out.println(tipo + " inv√°lida. Tente novamente.\n");
 		} while(valor < 1 || valor > 3);
 		
 		return valor;

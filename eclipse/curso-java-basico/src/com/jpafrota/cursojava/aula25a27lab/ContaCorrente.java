@@ -44,7 +44,7 @@ public class ContaCorrente {
 	
 	void consultarSaldo() {
 		System.out.println("Saldo atual: R$" + saldo);
-		if(saldo < 0) System.out.println("Você possui R$" + limiteDisponivel + " de limite especial");
+		if(saldo < 0) System.out.println("vocÃª possui R$" + limiteDisponivel + " de limite especial");
 		System.out.println("");
 	}
 	

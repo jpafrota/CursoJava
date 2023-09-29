@@ -11,8 +11,8 @@ public class Questao24 {
 		System.out.print("Entre com um valor: ");
 		double valor = scan.nextDouble();
 		
-		System.out.println("Entre com a operação desejada: ");
-		System.out.println("1 - Par ou Ímpar");
+		System.out.println("Entre com a operaÃ§Ã£o desejada: ");
+		System.out.println("1 - Par ou Ã­mpar");
 		System.out.println("2 - Positivo ou Negativo");
 		System.out.println("3 - Inteiro ou Decimal");
 		int operacao = scan.nextInt();
@@ -21,11 +21,11 @@ public class Questao24 {
 		
 		case 1: 
 			if((valor * 10) % 10 == 0) {
-				if(valor % 2 == 0) System.out.println("Número par!");
-				else System.out.println("Número ímpar!");
+				if(valor % 2 == 0) System.out.println("nÃºmero par!");
+				else System.out.println("nÃºmero Ã­mpar!");
 			}
 			else {
-				System.out.println("ERRO! Valor não é inteiro.");
+				System.out.println("ERRO! Valor nÃ£o Ã© inteiro.");
 			}
 			break;
 		case 2: 
@@ -41,7 +41,7 @@ public class Questao24 {
 			}
 			break;
 		default:
-			System.out.println("Operação inválida.");
+			System.out.println("OperaÃ§Ã£o invÃ¡lida.");
 		}
 		
 		

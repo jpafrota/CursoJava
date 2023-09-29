@@ -34,7 +34,7 @@ public class Pessoa {
 	
 	public String obterEtiquetaEndereco() {
 		
-		return "Endereço" + this.endereco;
+		return "EndereÃ§o" + this.endereco;
 		
 	}
 	

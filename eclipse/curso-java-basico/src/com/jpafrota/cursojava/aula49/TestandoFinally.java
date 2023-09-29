@@ -9,7 +9,7 @@ public class TestandoFinally {
 
 		for(int i = 0; i < numeros.length; i++) {
 			
-			// System.exit(0) TERMINA a execução do programa
+			// System.exit(0) TERMINA a execuÃ§Ã£oo do programa
 			try{
 				System.out.println(numeros[i] + "/" + denominadores[i] + " = " + (numeros[i]/denominadores[i]));
 			}
@@ -18,7 +18,7 @@ public class TestandoFinally {
 				System.exit(0);
 			}
 			catch(ArrayIndexOutOfBoundsException e1) {
-				System.out.println("Erro, posição fora do intervalo do vetor.");
+				System.out.println("Erro, posiÃ§Ã£o fora do intervalo do vetor.");
 				System.exit(0);
 			}
 			finally {

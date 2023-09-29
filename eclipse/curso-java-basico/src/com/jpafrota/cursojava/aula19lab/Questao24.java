@@ -19,12 +19,12 @@ public class Questao24 {
 			
 		}
 		
-		// Verificando se é palíndromo
+		// Verificando se Ã© palÃ­ndromo
 		for(int i = 0; i < (vetor.length / 2) && flag == true; i++) {
 			if(vetor[i] != vetor[vetor.length - (i + 1)]) flag = false;
 		}
 		
-		System.out.print("\nÉ palíndromo: " + flag);
+		System.out.print("\nÃ‰ palÃ­ndromo: " + flag);
 		
 	}
 

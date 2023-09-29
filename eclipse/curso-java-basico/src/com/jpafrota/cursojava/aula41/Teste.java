@@ -4,14 +4,14 @@ public class Teste {
 
 	public static void imprimirEndereco(Pessoa pessoa) {
 
-		// A implementaÁ„o do mÈtodo "testeAbstraÁ„o" pode esclarecer melhor.
+		// A implementa√ß√£o do m√©todo "testeAbstracao" pode esclarecer melhor.
 		pessoa.testeAbstracao();
 
 	}
 
 	public static void main(String[] args) {
 
-		// Classes abstratas n„o podem ser instanciadas.
+		// Classes abstratas n√£o podem ser instanciadas.
 		// Pessoa pessoa = new Pessoa();
 		Pessoa aluno = new Aluno();
 		Pessoa professor = new Professor();
@@ -20,11 +20,11 @@ public class Teste {
 		aluno.setEndereco("Rua E");
 		professor.setEndereco("Rua A");
 		
-		// o cÛdigo abaixo n„o funciona pois como j· foi visto, ao instanciar um aluno de um TIPO diferente,
-		// n„o obtemos acesso aos mÈtodos daquela classe. somente os mÈtodos referentes ao tipo declarado, que È Pessoa.
+		// o c√≥digo abaixo n√£o funciona pois como j√° foi visto, ao instanciar um aluno de um TIPO diferente,
+		// n√£o obtemos acesso aos m√©todos daquela classe. somente os m√©todos referentes ao tipo declarado, que √© Pessoa.
 		// aluno.funcaoQualquer();
 
-		// MÈtodos e atributos da superclasse abstrata podem ser usados por suas subclasses normalmente.
+		// M√©todos e atributos da superclasse abstrata podem ser usados por suas subclasses normalmente.
 		System.out.println(aluno.obterEtiquetaEndereco());
 		System.out.println(professor.obterEtiquetaEndereco());
 

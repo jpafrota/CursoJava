@@ -1,4 +1,4 @@
-//QUESTÃO 03: Faça um programa que peça dois números e imprima
+//QUESTÃ£O 03: FaÃ§a um programa que peÃ§a dois nÃºmeros e imprima
 //a soma.
 
 package com.jpafrota.cursojava.aula13lab;
@@ -15,7 +15,7 @@ public class Questao03 {
 		int valor1 = scan.nextInt();
 		System.out.print("Digite o segundo valor: ");
 		int valor2 = scan.nextInt();
-		System.out.println("A soma dos dois valores é: " + (valor1 + valor2));
+		System.out.println("A soma dos dois valores Ã©: " + (valor1 + valor2));
 	}
 
 }

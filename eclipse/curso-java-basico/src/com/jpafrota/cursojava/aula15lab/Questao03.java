@@ -10,7 +10,7 @@ public class Questao03 {
 		
 		String sexo = scan.next();
 		
-		// esse exercÌcio poderia ser resolvido usando leitura de Char
+		// esse exerc√≠cio poderia ser resolvido usando leitura de Char
 		//
 		// char sexo = scan.next().charAt(0);
 		
@@ -21,7 +21,7 @@ public class Questao03 {
 			System.out.println("Sexo digitado: Masculino");
 		}
 		else {
-			System.out.println("Sexo inv·lido.");
+			System.out.println("Sexo inv√°lido.");
 		}
 		
 	}

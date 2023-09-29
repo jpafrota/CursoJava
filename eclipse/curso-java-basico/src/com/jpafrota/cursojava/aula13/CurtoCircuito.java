@@ -4,7 +4,7 @@ public class CurtoCircuito {
 
 	public static void main(String[] args) {
 
-		//DICA: Use o debugger nas linhas 12 a 18 para ver a diferença entre & e &&!
+		//DICA: Use o debugger nas linhas 12 a 18 para ver a diferenÃ§a entre & e &&!
 		
 		boolean verdadeiro = true;
 		boolean falso = false;

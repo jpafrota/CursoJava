@@ -9,15 +9,15 @@ public class Questao28 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("Digite o tipo de carne desejada: ");
-		System.out.println("1 - FilÈ Duplo\n2 - Alcatra\n3 - Picanha");
+		System.out.println("1 - Fil√© Duplo\n2 - Alcatra\n3 - Picanha");
 		int tipoCarne = scan.nextInt();
 		
-		String tipo = "Inv·lido";
+		String tipo = "Inv√°lido";
 		
 		System.out.println("Digite a quantidade desejada (em KG): ");
 		double quilos = scan.nextDouble();
 		
-		System.out.println("Como deseja pagar?\n1 - Cart„o\n2 - Dinheiro");
+		System.out.println("Como deseja pagar?\n1 - Cart√£o\n2 - Dinheiro");
 		int pagamento = scan.nextInt();
 		
 		double preco = 0;
@@ -25,7 +25,7 @@ public class Questao28 {
 		
 		switch (tipoCarne) {
 		case 1: 
-			tipo = "FilÈ Duplo";
+			tipo = "Fil√© Duplo";
 			if (quilos <= 5)
 				preco = 4.9 * quilos;
 			else
@@ -55,9 +55,9 @@ public class Questao28 {
 		System.out.println("CUPOM FISCAL\n");
 		System.out.println("Tipo de Carne: " + tipo);
 		System.out.println("Quantidade: " + quilos + "kg");
-		System.out.println("PreÁo: R$" + preco);
+		System.out.println("pre√ßo: R$" + preco);
 		System.out.print("Tipo de Pagamento: ");
-		if(pagamento == 1) System.out.println("Cart„o");
+		if(pagamento == 1) System.out.println("Cart√£o");
 		else System.out.println("Dinheiro");
 		System.out.println("Desconto: R$" + desconto);
 		System.out.println("Valor total a pagar: R$" + precoTotal);

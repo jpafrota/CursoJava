@@ -8,13 +8,13 @@ public class Questao08 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Digite o preço do primeiro produto: ");
+		System.out.print("Digite o preÃ§o do primeiro produto: ");
 		double produto1 = scan.nextDouble();
 		
-		System.out.print("Digite o preço do segundo produto: ");
+		System.out.print("Digite o preÃ§o do segundo produto: ");
 		double produto2 = scan.nextDouble();
 		
-		System.out.print("Digite o preço do terceiro produto: ");
+		System.out.print("Digite o preÃ§o do terceiro produto: ");
 		double produto3 = scan.nextDouble();
 		
 		if(produto1 <= produto2 && produto1 <= produto3) {

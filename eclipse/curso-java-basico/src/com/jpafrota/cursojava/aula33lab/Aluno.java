@@ -26,30 +26,39 @@ public class Aluno {
 	public String getNome() {
 		return nome;
 	}
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+
 	public int getMatricula() {
 		return matricula;
 	}
+
 	public void setMatricula(int matricula) {
 		this.matricula = matricula;
 	}
+
 	public String getCurso() {
 		return curso;
 	}
+
 	public void setCurso(String curso) {
 		this.curso = curso;
 	}
+
 	public String[] getDisciplinas() {
 		return disciplinas;
 	}
+
 	public void setDisciplinas(String[] disciplinas) {
 		this.disciplinas = disciplinas;
 	}
+
 	public double[][] getNotas() {
 		return notas;
 	}
+
 	public void setNotas(double[][] notas) {
 		this.notas = notas;
 	}
@@ -63,6 +72,8 @@ public class Aluno {
 	}
 	// END OF GETTERS AND SETTERS
 	
+	// METHODS
+	// METHODS
 	// METHODS
 	public boolean verificarAprovacao(int indice) {
 		

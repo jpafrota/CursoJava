@@ -11,7 +11,7 @@ public class Exer06 {
 		contato.numero[1] = "(92) 98116-0826";
 		contato.nome = "Jorge";
 		contato.sobrenome = "Frota";
-		contato.endereco = "Rua Pl·cido de Castro, 7";
+		contato.endereco = "Rua Pl√°cido de Castro, 7";
 		contato.email = "jorgepabloafrota@gmail.com";
 		
 		System.out.println("DADOS DO CONTATO: \n");

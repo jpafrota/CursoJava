@@ -12,7 +12,7 @@ public class Questao41 {
 		double valorJuros, porcentJuros = 10;
 		double valorParcela;
 
-		System.out.println("Entre com o valor da dívida: ");
+		System.out.println("Entre com o valor da dÃ­vida: ");
 		valorDivida = scan.nextDouble();
 		
 		System.out.println("\n\nDivida: R$" + valorDivida);

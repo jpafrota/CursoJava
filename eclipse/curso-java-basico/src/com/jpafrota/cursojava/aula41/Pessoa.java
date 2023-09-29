@@ -1,6 +1,6 @@
 package com.jpafrota.cursojava.aula41;
 
-// Classes abstratas n„o podem ser instanciadas.
+// Classes abstratas n√£o podem ser instanciadas.
 public abstract class Pessoa {
 
 	private String nome;
@@ -35,11 +35,11 @@ public abstract class Pessoa {
 	
 	public String obterEtiquetaEndereco() {
 		
-		return "EndereÁo: " + this.endereco;
+		return "Endere√ßo: " + this.endereco;
 		
 	}
 	
-	// MÈtodos abstratos DEVEM ser sobrescritos individualmente para cada subclasse que herda esta classe.
+	// M√©todos abstratos DEVEM ser sobrescritos individualmente para cada subclasse que herda esta classe.
 	public abstract void testeAbstracao();
 	
 	public void doSomething() {

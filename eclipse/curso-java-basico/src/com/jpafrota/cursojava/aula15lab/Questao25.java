@@ -10,7 +10,7 @@ public class Questao25 {
 		
 		int suspeito = 0;
 		
-		System.out.println("Telefonou para a vítima?");
+		System.out.println("Telefonou para a vÃ­tima?");
 		String resposta = scan.next();
 		if(resposta.equalsIgnoreCase("Sim")) suspeito++;
 		
@@ -18,21 +18,21 @@ public class Questao25 {
 		resposta = scan.next();
 		if(resposta.equalsIgnoreCase("Sim")) suspeito++;
 		
-		System.out.println("Mora perto da vítima?");
+		System.out.println("Mora perto da vÃ­tima?");
 		resposta = scan.next();
 		if(resposta.equalsIgnoreCase("Sim")) suspeito++;
 		
-		System.out.println("Devia para a vítima?");
+		System.out.println("Devia para a vÃ­tima?");
 		resposta = scan.next();
 		if(resposta.equalsIgnoreCase("Sim")) suspeito++;
 		
-		System.out.println("Já trabalhou com a vítima?");
+		System.out.println("JÃ¡ trabalhou com a vÃ­tima?");
 		resposta = scan.next();
 		if(resposta.equalsIgnoreCase("Sim")) suspeito++;
 		
 		if(suspeito < 2) System.out.println("Inocente.");
 		else if(suspeito == 2) System.out.println("Suspeito.");
-		else if(suspeito <= 4) System.out.println("Cúmplice.");
+		else if(suspeito <= 4) System.out.println("CÃºmplice.");
 		else System.out.println("Assassino.");
 			
 	}

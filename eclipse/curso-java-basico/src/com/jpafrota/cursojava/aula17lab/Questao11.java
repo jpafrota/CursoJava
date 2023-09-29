@@ -26,7 +26,7 @@ public class Questao11 {
 			
 		}
 		
-		System.out.println("A soma dos numeros é: " + soma);
+		System.out.println("A soma dos numeros Ã© " + soma);
 
 	}
 

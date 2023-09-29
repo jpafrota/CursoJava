@@ -8,10 +8,10 @@ public class Questao26 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Qual o tipo de combustível desejado?");
+		System.out.println("Qual o tipo de combustÃ­vel desejado?");
 		String tipoCombustivel = scan.next();
 		
-		System.out.println("Quantos litros você deseja?");
+		System.out.println("Quantos litros vocÃª deseja?");
 		double litros = scan.nextDouble();
 		
 		double valorTotal;
@@ -28,8 +28,8 @@ public class Questao26 {
 						
 			valorTotal = valorTotal - desconto;
 			
-			System.out.println("Você recebeu um desconto de: R$" + desconto);
-			System.out.println("O valor total a ser pago é de: R$" + valorTotal);
+			System.out.println("vocÃª recebeu um desconto de: R$" + desconto);
+			System.out.println("O valor total a ser pago Ã© de: R$" + valorTotal);
 			break;
 			
 		case "g":
@@ -42,12 +42,12 @@ public class Questao26 {
 			
 			valorTotal = valorTotal - desconto;
 			
-			System.out.println("Você recebeu um desconto de: R$" + desconto);
-			System.out.println("O valor total a ser pago é de: R$" + valorTotal);
+			System.out.println("vocÃª recebeu um desconto de: R$" + desconto);
+			System.out.println("O valor total a ser pago Ã© de: R$" + valorTotal);
 			break;
 			
 		default:
-			System.out.println("Opção inválida.");
+			System.out.println("OpÃ§Ã£o invÃ¡lida.");
 		}
 		
 	}

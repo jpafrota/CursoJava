@@ -9,10 +9,10 @@ public class Questao01 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Entre com o primeiro número: ");
+		System.out.print("Entre com o primeiro nÃºmero: ");
 		int valor1 = scan.nextInt();
 		
-		System.out.print("Entre com o segundo número: ");
+		System.out.print("Entre com o segundo nÃºmero: ");
 		int valor2 = scan.nextInt();
 		
 		if(valor1 > valor2) {
@@ -22,7 +22,7 @@ public class Questao01 {
 			System.out.println("Maior: " + valor2);
 		}
 		else {
-			System.out.println("Os dois números são iguais");
+			System.out.println("Os dois nÃºmeros sÃ£o iguais");
 		}
 		
 	}

@@ -1,4 +1,4 @@
-//QUEST√O 04: FaÁa um programa que peÁa as 4 notas bimestrais e mostre a mÈdia.
+//QUEST√ÉO 04: Fa√ßa um programa que pe√ßa as 4 notas bimestrais e mostre a m√©dia.
 
 package com.jpafrota.cursojava.aula13lab;
 
@@ -24,7 +24,7 @@ public class Questao04 {
 		
 		double media = (nota1 + nota2 + nota3 + nota4)/4;
 		
-		System.out.println("A mÈdia das notas È: " + media);
+		System.out.println("A m√©dia das notas √©: " + media);
 		
 	}
 	

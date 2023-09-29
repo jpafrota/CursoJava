@@ -18,7 +18,7 @@ public class Questao26 {
 		for (int i = 1; i <= qtd; i++) {
 
 			do {
-				System.out.println("Eleitor nº " + i);
+				System.out.println("Eleitor nÂº " + i);
 				System.out.println("Em qual candidato deseja votar? 1 / 2 / 3");
 				voto = scan.nextInt();
 
@@ -29,7 +29,7 @@ public class Questao26 {
 				else if (voto == 3)
 					cand3++;
 				else {
-					System.out.println("Voto inválido. Tente novamente\n");
+					System.out.println("Voto invÃ¡lido. Tente novamente\n");
 				}
 
 			} while (voto < 1 || voto > 3);

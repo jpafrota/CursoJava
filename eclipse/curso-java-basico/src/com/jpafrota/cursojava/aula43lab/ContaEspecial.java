@@ -51,7 +51,7 @@ public class ContaEspecial extends ContaBancaria {
 	public void mostrarSaldo() {
 		
 		super.mostrarSaldo();
-		System.out.println("Limite Disponível: R$" + this.limiteDisponivel);
+		System.out.println("Limite DisponÃ­vel: R$" + this.limiteDisponivel);
 		
 	}
 	

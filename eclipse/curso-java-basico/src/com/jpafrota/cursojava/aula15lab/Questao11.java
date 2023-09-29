@@ -8,7 +8,7 @@ public class Questao11 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Digite seu sal·rio: ");
+		System.out.print("Digite seu sal√°rio: ");
 		double salario = scan.nextDouble();
 		
 		double aumento;
@@ -32,10 +32,10 @@ public class Questao11 {
 		aumento = salario * percentual;
 		salario = salario + aumento;
 		
-		System.out.println("Seu sal·rio antes do reajuste era de: R$" + antigoSalario);
+		System.out.println("Seu sal√°rio antes do reajuste era de: R$" + antigoSalario);
 		System.out.println("Percentual de aumento: " + percentual*100 + "%");
 		System.out.println("Aumento: R$" + aumento);
-		System.out.println("Seu novo sal·rio È de: R$" + salario);
+		System.out.println("Seu novo sal√°rio √© de: R$" + salario);
 		
 	}
 

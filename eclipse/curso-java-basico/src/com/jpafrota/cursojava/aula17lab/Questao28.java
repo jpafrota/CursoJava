@@ -24,8 +24,8 @@ public class Questao28 {
 		
 		media = soma / quantidadeCDs;
 		
-		System.out.println("Você investiu um total de: R$" + soma);
-		System.out.println("Com uma média de R$" + media + " por CD");
+		System.out.println("vocÃª investiu um total de: R$" + soma);
+		System.out.println("Com uma mÃ©dia de R$" + media + " por CD");
 		
 	}
 

@@ -16,14 +16,14 @@ public class Questao24 {
 		double media;
 		
 		for(int i = 1; i <= qtd; i++) {
-			System.out.print("Digite a " + i + "ª nota: ");
+			System.out.print("Digite a " + i + "Âª nota: ");
 			nota = scan.nextDouble();
 			soma += nota;
 		}
 		
 		media = soma / qtd;
 		
-		System.out.println("A média das notas informadas é: " + media);
+		System.out.println("A mÃ©dia das notas informadas Ã© " + media);
 		
 	}
 

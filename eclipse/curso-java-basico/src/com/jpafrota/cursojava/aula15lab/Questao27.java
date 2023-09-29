@@ -11,7 +11,7 @@ public class Questao27 {
 		System.out.println("Digite a quantidade de morangos (em KG): ");
 		double kgMorango = scan.nextDouble();
 		
-		System.out.println("Digite a quantidade de maçãs (em KG): ");
+		System.out.println("Digite a quantidade de maÃ§Ã£s (em KG): ");
 		double kgMaca = scan.nextDouble();
 		
 		double precoMorango;
@@ -31,7 +31,7 @@ public class Questao27 {
 		precoTotal = precoTotal - desconto;
 		
 		System.out.println(kgMorango + "kg de morango: R$" + precoMorango);
-		System.out.println(kgMaca + "kg de maçã: R$" + precoMaca);
+		System.out.println(kgMaca + "kg de maÃ§Ã£: R$" + precoMaca);
 		System.out.println("\nSubtotal: R$" + precoTotal);
 		System.out.println("Desconto: R$" + desconto);
 		System.out.println("Total: R$" + precoTotal);

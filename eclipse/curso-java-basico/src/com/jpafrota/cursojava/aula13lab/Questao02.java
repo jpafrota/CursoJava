@@ -1,5 +1,5 @@
-//QUESTÃO 02: Faça um programa que peça um número e então
-//mostre a mensagem "O número informado foi [número]"
+//QUESTÃ£O 02: FaÃ§a um programa que peÃ§a um nÃºmero e entÃ£o
+//mostre a mensagem "O nÃºmero informado foi [nÃºmero]"
 
 package com.jpafrota.cursojava.aula13lab;
 

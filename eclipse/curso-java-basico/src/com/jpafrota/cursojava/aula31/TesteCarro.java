@@ -8,7 +8,7 @@ public class TesteCarro {
 	
 		System.out.println(van.getMarca());
 		
-		van.setMarca("Testando métodos getters e setters");
+		van.setMarca("Testando mÃ©todos getters e setters");
 		
 		System.out.println("\n" + van.getMarca());
 		System.out.println(van.getModelo());

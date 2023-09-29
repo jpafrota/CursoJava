@@ -7,13 +7,13 @@ public class Teste {
 		final double valorPi = 3.14;
 		
 		Pessoa pessoa = new Pessoa();
-		// Como Pessoa È classe final, n„o pode ser estendida
+		// Como Pessoa √© classe final, n√£o pode ser estendida
 		// Pessoa aluno1 = new Aluno();
 		
 		Aluno aluno = new Aluno();
 		Professor professor = new Professor();
 		
-		// Como a vari·vel valorPi foi declarada como final, n„o È possÌvel alterar seu valor posteriormente.
+		// Como a vari√°vel valorPi foi declarada como final, n√£o √© poss√≠vel alterar seu valor posteriormente.
 		
 		// valorPi = 3.4524;
 		

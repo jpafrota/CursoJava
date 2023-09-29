@@ -22,8 +22,8 @@ public class Questao08 {
 		
 		media = soma / 5;
 		
-		System.out.println("A soma dos numeros é: " + soma);
-		System.out.println("A média dos valores é: " + media);
+		System.out.println("A soma dos numeros Ã© " + soma);
+		System.out.println("A mÃ©dia dos valores Ã© " + media);
 
 	}
 

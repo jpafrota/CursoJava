@@ -8,21 +8,21 @@ public class Questao17 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Entre com um ano do calend·rio: ");
+		System.out.println("Entre com um ano do calend√°rio: ");
 		double ano = scan.nextDouble();
 		
 		if(ano % 4 == 0) {
 			
-			if(ano % 100 != 0) System.out.print("O ano informado È bissexto!");
+			if(ano % 100 != 0) System.out.print("O ano informado √© bissexto!");
 			
 			else {
-				if(ano % 400 == 0) System.out.print("O ano informado È bissexto!");
-				else System.out.print("O ano informado n„o È bissexto!");
+				if(ano % 400 == 0) System.out.print("O ano informado √© bissexto!");
+				else System.out.print("O ano informado n√£o √© bissexto!");
 			}
 			
 		}
 		
-		else System.out.print("O ano informado n„o È bissexto!");
+		else System.out.print("O ano informado n√£o √© bissexto!");
 		
 	}
 }

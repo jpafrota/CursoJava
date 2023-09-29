@@ -22,7 +22,7 @@ public class Questao22 {
 			
 		}
 		
-		System.out.println("\n… Primo?");
+		System.out.println("\n√â Primo?");
 		System.out.println(ehPrimo);
 		
 	}

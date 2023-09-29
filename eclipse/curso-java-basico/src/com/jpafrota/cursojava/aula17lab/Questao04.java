@@ -1,7 +1,5 @@
 package com.jpafrota.cursojava.aula17lab;
 
-import java.util.Scanner;
-
 public class Questao04 {
 
 	public static void main(String[] args) {
@@ -14,14 +12,14 @@ public class Questao04 {
 		while(a < b) {
 			
 			a += (a/100)*3;
-			b += (b/100)*1.5;
+			b += (int) ((b/100)*1.5);
 			anos++;
 			
 		}
 		
 		System.out.println("Anos passados: " + anos);
-		System.out.println("Valor da popula��o da cidade A: " + a);
-		System.out.println("Valor da popula��o da cidade B: " + b);
+		System.out.println("Valor da população da cidade A: " + a);
+		System.out.println("Valor da população da cidade B: " + b);
 
 	}
 

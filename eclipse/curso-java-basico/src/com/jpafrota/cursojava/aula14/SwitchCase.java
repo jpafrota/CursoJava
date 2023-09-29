@@ -18,7 +18,7 @@ public class SwitchCase {
 			System.out.println("Segunda");
 			break;
 		case 3:
-			System.out.println("Terça");
+			System.out.println("TerÃ§a");
 			break;
 		case 4: 
 			System.out.println("Quarta");
@@ -30,10 +30,10 @@ public class SwitchCase {
 			System.out.println("Sexta");
 			break;
 		case 7:
-			System.out.println("Sábado");
+			System.out.println("SÃ¡bado");
 			break;
 		default:
-			System.out.println("Não é um dia da semana");
+			System.out.println("NÃ£o Ã© um dia da semana");
 		}
 		
 	}

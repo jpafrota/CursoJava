@@ -64,17 +64,17 @@ public class Carro {
 		this.marca = marca;
 		this.modelo = modelo;
 		this.numPassageiros = numPassageiros;
-		System.out.println("Chamando construtor com 3 par‚metros");
+		System.out.println("Chamando construtor com 3 par√¢metros");
 	}
 
 	public Carro(String marca, String modelo) {
 		this(marca, modelo, 10);
-		System.out.println("Chamando construtor com 2 par‚metros");
+		System.out.println("Chamando construtor com 2 par√¢metros");
 	}
 	
 	void exibirAutonomia() {
 		
-		System.out.println("A autonomia do carro È: " + capCombustivel * consumoCombustivel + " km");
+		System.out.println("A autonomia do carro √©: " + capCombustivel * consumoCombustivel + " km");
 		
 	}
 	

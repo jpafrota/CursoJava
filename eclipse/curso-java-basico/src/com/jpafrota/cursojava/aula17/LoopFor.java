@@ -8,7 +8,7 @@ public class LoopFor {
 			System.out.println("Valor atual: " + i);
 		}
 
-		System.out.println("FOR com duas vari·veis");
+		System.out.println("FOR com duas vari√°veis");
 
 		for (int i = 0, j = 10; i <= 10 && j >= 0; i++, j--) {
 

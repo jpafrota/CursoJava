@@ -11,8 +11,8 @@ public class Questao23 {
 		System.out.print("Entre com um valor: ");
 		double valor = scan.nextDouble();
 		
-		if((valor * 10) % 10 == 0) System.out.println("Número inteiro!");
-		else System.out.println("Número decimal!");
+		if((valor * 10) % 10 == 0) System.out.println("nÃºmero inteiro!");
+		else System.out.println("nÃºmero decimal!");
 		
 	}
 }

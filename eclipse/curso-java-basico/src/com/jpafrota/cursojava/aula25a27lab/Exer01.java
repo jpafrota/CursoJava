@@ -13,22 +13,22 @@ public class Exer01 {
 		lampada.corDaLuz = "RGB";
 		
 		System.out.println("Modelo: " + lampada.modelo);
-		System.out.println("Potência: " + lampada.potencia);
-		System.out.println("Tensão: " + lampada.tensao);
-		System.out.println("Tipo de Iluminação: " + lampada.tipoIluminacao);
+		System.out.println("PotÃªncia: " + lampada.potencia);
+		System.out.println("TensÃ£o: " + lampada.tensao);
+		System.out.println("Tipo de IluminaÃ§Ã£o: " + lampada.tipoIluminacao);
 		System.out.println("Cor da Luz: " + lampada.corDaLuz);
 		
-		System.out.println("Lâmpada ligada: " + lampada.ligado);
+		System.out.println("LÃ¢mpada ligada: " + lampada.ligado);
 		lampada.interruptor();
-		System.out.println("Lâmpada ligada: " + lampada.ligado);
+		System.out.println("LÃ¢mpada ligada: " + lampada.ligado);
 		lampada.interruptor();
-		System.out.println("Lâmpada ligada: " + lampada.ligado);
+		System.out.println("LÃ¢mpada ligada: " + lampada.ligado);
 		lampada.ligar();
-		System.out.println("Lâmpada ligada: " + lampada.ligado);
+		System.out.println("LÃ¢mpada ligada: " + lampada.ligado);
 		lampada.ligar();
-		System.out.println("Lâmpada ligada: " + lampada.ligado);
+		System.out.println("LÃ¢mpada ligada: " + lampada.ligado);
 		lampada.desligar();
-		System.out.println("Lâmpada ligada: " + lampada.ligado);
+		System.out.println("LÃ¢mpada ligada: " + lampada.ligado);
 		
 	}
 

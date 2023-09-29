@@ -1,9 +1,9 @@
-// QUEST√O ANULADA NA LISTA
+// QUEST√ÉO ANULADA NA LISTA
 
 package com.jpafrota.cursojava.aula19lab;
 
-import java.util.Scanner;
 import java.text.DecimalFormat;
+import java.util.Scanner;
 
 public class Questao21 {
 
@@ -16,7 +16,7 @@ public class Questao21 {
 		
 		DecimalFormat df = new DecimalFormat("###,###.###");
 		
-		System.out.print("CotaÁ„o do DÛlar (R$): ");
+		System.out.print("Cota√ß√£o do D√≥lar (R$): ");
 		cotacao = scan.nextDouble();
 		
 		for(int i = 0; i < vetA.length; i++) {

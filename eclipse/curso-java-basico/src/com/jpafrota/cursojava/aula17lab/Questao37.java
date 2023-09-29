@@ -86,8 +86,8 @@ public class Questao37 {
 		System.out.println("Mais Magro: " + maisMagro + " kg (ID: " + codMagro + ")");
 		System.out.println("Mais Alto: " + maisAlto + " cm (ID: " + codAlto + ")");
 		System.out.println("Mais Baixo: " + maisBaixo + " cm (ID: " + codBaixo + ")");
-		System.out.println("Média de altura dos clientes: " + mediaAltura);
-		System.out.println("Média de peso dos clientes: " + mediaPeso);
+		System.out.println("MÃ©dia de altura dos clientes: " + mediaAltura);
+		System.out.println("MÃ©dia de peso dos clientes: " + mediaPeso);
 		
 	}
 

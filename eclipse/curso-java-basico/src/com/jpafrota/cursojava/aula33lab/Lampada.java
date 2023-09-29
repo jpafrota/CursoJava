@@ -68,7 +68,7 @@ public class Lampada {
 	}
 	// End-Getters and Setters
 	
-	// MÈtodos
+	// m√©todos
 	public void interruptor() {
 		this.setLigado(!this.isLigado());;
 	}
@@ -82,8 +82,8 @@ public class Lampada {
 	}
 	
 	public void mostrarEstado() {
-		if(this.isLigado()) System.out.println("L‚mpada ligada.");
-		else System.out.println("L‚mpada desligada.");
+		if(this.isLigado()) System.out.println("L√¢mpada ligada.");
+		else System.out.println("L√¢mpada desligada.");
 	}
 	
 }

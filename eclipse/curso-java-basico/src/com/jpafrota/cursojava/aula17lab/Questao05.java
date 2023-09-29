@@ -12,19 +12,19 @@ public class Questao05 {
 		double taxaA, taxaB;
 		int anos = 0;
 		
-		// População A
+		// PopulaÃ£oo A
 		do {
 			
-			System.out.print("Entre com o valor da população A: ");
+			System.out.print("Entre com o valor da populaÃ£oo A: ");
 			popA = scan.nextInt();
 			if(popA <= 0) System.out.println("ERRO! Valor deve ser maior que zero.");
 			
 		} while (popA <= 0);
 		
-		// População B
+		// PopulaÃ£oo B
 		do {
 			
-			System.out.print("Entre com o valor da população B: ");
+			System.out.print("Entre com o valor da populaÃ£oo B: ");
 			popB = scan.nextInt();
 			if(popB <= 0) System.out.println("ERRO! Valor deve ser maior que zero.");
 			
@@ -58,8 +58,8 @@ public class Questao05 {
 		}
 		
 		System.out.println("\nAnos passados: " + anos);
-		System.out.println("Valor da população da cidade A: " + popA);
-		System.out.println("Valor da população da cidade B: " + popB);
+		System.out.println("Valor da populaÃ£oo da cidade A: " + popA);
+		System.out.println("Valor da populaÃ£oo da cidade B: " + popB);
 		
 	}
 

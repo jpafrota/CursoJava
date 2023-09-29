@@ -18,22 +18,22 @@ public class Questao45 {
 		
 		int continuar;
 		
-		System.out.println("OL¡ PROFESSOR! Digite o gabarito da prova: ");
+		System.out.println("OL√Å PROFESSOR! Digite o gabarito da prova: ");
 		
 		for(int i = 1; i <= 10; i++) {
 			
-			System.out.print("Quest„o " + i + ": ");
+			System.out.print("QUEST√ÉO " + i + ": ");
 			gabarito += scan.next().charAt(0);
 			
 		}
 		
 		do {
 			
-			System.out.println("OL¡ ALUNO! Digite abaixo suas respostas.");
+			System.out.println("OL√Å ALUNO! Digite abaixo suas respostas.");
 			
 			for(int i = 1; i <= 10; i++) {
 				
-				System.out.print("Quest„o " + i + ": ");
+				System.out.print("QUEST√ÉO " + i + ": ");
 				resposta = scan.next().charAt(0);
 				
 				if(resposta == gabarito.charAt(i-1)) {
@@ -57,8 +57,8 @@ public class Questao45 {
 			qtdAlunos++;
 			
 			System.out.println("Acertos: " + acertos);
-			System.out.println("Outro aluno ir· utilizar a plataforma?");
-			System.out.println("1 - Sim\n2 - N„o");
+			System.out.println("Outro aluno ir√° utilizar a plataforma?");
+			System.out.println("1 - Sim\n2 - n√£o");
 			continuar = scan.nextInt();
 			
 			acertos = 0;
@@ -68,7 +68,7 @@ public class Questao45 {
 		media = soma / qtdAlunos;
 		
 		System.out.println("Total de alunos: " + qtdAlunos);
-		System.out.println("MÈdia de notas da turma: " + media);
+		System.out.println("M√©dia de notas da turma: " + media);
 		System.out.println("Maior nota da turma: " + maior);
 		System.out.println("Menor nota da turma: " + menor);
 		

@@ -16,7 +16,7 @@ public class Questao01 {
 			nota = scan.nextDouble();
 			
 			if (nota < 0 || nota > 10)
-				System.out.println("Nota inv·lida!");
+				System.out.println("Nota inv√°lida!");
 			else
 				System.out.println("Nota: " + nota);
 

@@ -11,7 +11,7 @@ public class Questao12 {
 		System.out.print("Entre com o valor da sua hora: ");
 		double valorHora = scan.nextDouble();
 		
-		System.out.print("Entre com a quantidade de horas trabalhadas no mÍs: ");
+		System.out.print("Entre com a quantidade de horas trabalhadas no m√™s: ");
 		double horasTrab = scan.nextDouble();
 		
 		double salarioBruto = horasTrab * valorHora;
@@ -36,12 +36,12 @@ public class Questao12 {
 		
 		salarioLiq = salarioBruto - ir - inss;
 		
-		System.out.println("Sal·rio Bruto: (" + valorHora + " + " + horasTrab + "): R$" + salarioBruto);
+		System.out.println("sal√°rio Bruto: (" + valorHora + " + " + horasTrab + "): R$" + salarioBruto);
 		System.out.println("(-) IR (" + (ir * 100d)/salarioBruto + "%): R$" + ir);
 		System.out.println("(-) INSS (10%): R$" + inss);
 		System.out.println("FGTS (11%): R$" + fgts);
 		System.out.println("Total de Descontos: R$" + (ir + inss));
-		System.out.println("Sal·rio LÌquido: R$" + salarioLiq);		
+		System.out.println("sal√°rio l√≠quido: R$" + salarioLiq);
 		
 	}
 }

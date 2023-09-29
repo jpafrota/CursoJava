@@ -20,18 +20,18 @@ public class LeituraDadosTeclado {
 		System.out.print("Digite sua altura: ");
 		float altura = scan.nextFloat();
 		
-		System.out.print("Quantos filhos você possui: ");
+		System.out.print("Quantos filhos vocÃª possui: ");
 		byte temFilhos = scan.nextByte();
 		
-		System.out.print("Você tem animais de estimação?: ");
+		System.out.print("VocÃª tem animais de estimaÃ§Ã£o?: ");
 		boolean temPet = scan.nextBoolean();
 		
 		
-		System.out.println("Seu nome completo é: " + nomeCompleto);
-		System.out.println("Seu primeiro nome é: " + primeiroNome);
-		System.out.println("Sua idade é: " + idade + " anos");
-		System.out.println("Sua altura é: " + altura + " metros");
-		System.out.println("Você tem: " + temFilhos + " filhos");
-		System.out.println("Possui animais de estimação: " + temPet);
+		System.out.println("Seu nome completo Ã©: " + nomeCompleto);
+		System.out.println("Seu primeiro nome Ã©: " + primeiroNome);
+		System.out.println("Sua idade Ã©: " + idade + " anos");
+		System.out.println("Sua altura Ã©: " + altura + " metros");
+		System.out.println("VocÃª tem: " + temFilhos + " filhos");
+		System.out.println("Possui animais de estimaÃ§Ã£o: " + temPet);
 	}
 }

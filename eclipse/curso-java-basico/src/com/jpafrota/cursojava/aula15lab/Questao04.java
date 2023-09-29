@@ -24,7 +24,7 @@ public class Questao04 {
 		String letra = scan.next();
 		
 		if(letra.length() > 1) {
-			System.out.println("Entrada n„o È uma letra");
+			System.out.println("Entrada n√£o √© uma letra");
 		}
 		else {
 			switch(letra) {
@@ -38,10 +38,10 @@ public class Questao04 {
 			case "I":
 			case "O":
 			case "U":
-				System.out.println("A letra digitada È uma vogal");
+				System.out.println("A letra digitada √© uma vogal");
 				break;
 			default:
-				System.out.println("A letra digitada È uma consoante");
+				System.out.println("A letra digitada √© uma consoante");
 			}
 		}
 	}

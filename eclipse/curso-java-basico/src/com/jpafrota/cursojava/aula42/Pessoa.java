@@ -1,11 +1,11 @@
 package com.jpafrota.cursojava.aula42;
 
-// Classes finais n„o podem ser estendidas, ou seja, n„o podem ter subclasses
+// Classes finais n√£o podem ser estendidas, ou seja, n√£o podem ter subclasses
 
-// O maior exemplo disso È a classe String.
-// N„o se pode fazer, por exemplo: public class MinhaString EXTENDS String
-// Pois È invi·vel e perigoso alguma classe poder sobrescrever os mÈtodos existentes na superclasse String.
-// Pode acontecer o mesmo em projetos onde temos classes extremamente sensÌveis a mudanÁas e n„o desejamos que alguÈm altere algo.
+// O maior exemplo disso √© a classe String.
+// n√£o se pode fazer, por exemplo: public class MinhaString EXTENDS String
+// Pois √© invi√°vel e perigoso alguma classe poder sobrescrever os m√©todos existentes na superclasse String.
+// Pode acontecer o mesmo em projetos onde temos classes extremamente sens√≠veis a mudan√ßas e n√£o desejamos que algu√©m altere algo.
 
 public final class Pessoa {
 
@@ -41,7 +41,7 @@ public final class Pessoa {
 	
 	public String obterEtiquetaEndereco() {
 		
-		return "EndereÁo: " + this.endereco;
+		return "Endere√ßo: " + this.endereco;
 		
 	}
 	

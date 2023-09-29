@@ -36,10 +36,10 @@ public class Questao03 {
 		
 		do {
 			
-			System.out.println("Entre com seu sal·rio: ");
+			System.out.println("Entre com seu sal√°rio: ");
 			int salario = scan.nextInt();
 			if (salario < 0) {
-				System.out.println("ERRO! Sal·rio n„o pode ser negativo.");
+				System.out.println("ERRO! sal√°rio n√£o pode ser negativo.");
 				flag = false;
 			}
 			else flag = true;
@@ -52,7 +52,7 @@ public class Questao03 {
 			String sexo = scan.next();
 			if (!sexo.equalsIgnoreCase("m") 
 					&& !sexo.equalsIgnoreCase("f")) {
-				System.out.println("ERRO! Sexo inv·lido.");
+				System.out.println("ERRO! Sexo inv√°lido.");
 				flag = false;
 			}
 			else flag = true;

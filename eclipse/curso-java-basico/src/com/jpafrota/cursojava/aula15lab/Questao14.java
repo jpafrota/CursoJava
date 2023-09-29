@@ -37,11 +37,11 @@ public class Questao14 {
 		case 'A':
 		case 'B':
 		case 'C':
-			System.out.println("Aprovado! Sua nota é: " + conceito);
+			System.out.println("Aprovado! Sua nota Ã© " + conceito);
 			break;
 		case 'D':
 		case 'E':
-			System.out.println("Reprovado! Sua nota é: " + conceito);
+			System.out.println("Reprovado! Sua nota Ã© " + conceito);
 			break;
 		}
 				

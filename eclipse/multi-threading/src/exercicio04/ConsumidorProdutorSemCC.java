@@ -22,7 +22,7 @@ class Deposito {
 		System.out.println("Tentando adicionar na caixa...");
 		
 		if(this.qtdItens + 1 > capMaxima) {
-			System.out.println("Capacidade m�xima atingida.");
+			System.out.println("Capacidade máxima atingida.");
 			System.out.println("Nenhum item adicionado. | Qtd: " + this.qtdItens + "\n");
 		}
 		
@@ -38,7 +38,7 @@ class Deposito {
 		System.out.println("Tentando retirar da caixa...");
 		
 		if(this.qtdItens == 0) {
-			System.out.println("N�o h� itens na caixa.");
+			System.out.println("Não há itens na caixa.");
 			System.out.println("Nenhum item retirado. | Qtd: " + this.qtdItens + "\n");
 		}
 		else {

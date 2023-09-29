@@ -1,5 +1,5 @@
-//QUEST√O 07: FaÁa um programa que calcule a ·rea de um quadrado, em seguida mostre
-//o dobro dessa ·rea para o usu·rio.
+//QUEST√ÉO 07: Fa√ßa um programa que calcule a √°rea de um quadrado, em seguida mostre
+//o dobro dessa √°rea para o usu√°rio.
 
 package com.jpafrota.cursojava.aula13lab;
 
@@ -16,8 +16,8 @@ public class Questao07 {
 		
 		double area = lado * lado;
 		
-		System.out.println("¡rea do quadrado: " + area + " m≤");
-		System.out.println("Dobro da ·rea: " + area*2);
+		System.out.println("√°rea do quadrado: " + area + " m¬≤");
+		System.out.println("Dobro da √°rea: " + area*2);
 		
 	}
 	

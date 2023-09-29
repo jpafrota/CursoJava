@@ -8,19 +8,19 @@ public class Questao09 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Digite o primeiro número: ");
+		System.out.print("Digite o primeiro nÃºmero: ");
 		int valor1 = scan.nextInt();
 		
 		int maior = valor1;
 		int menor = valor1;
 		
-		System.out.print("Digite o segundo número: ");
+		System.out.print("Digite o segundo nÃºmero: ");
 		int valor2 = scan.nextInt();
 		
 		if(valor2 < menor) menor = valor2;
 		else maior = valor2;
 
-		System.out.print("Digite o terceiro número: ");
+		System.out.print("Digite o terceiro nÃºmero: ");
 		int valor3 = scan.nextInt();
 		
 		int medio;

@@ -13,7 +13,7 @@ public class Questao03 {
 		System.out.println("Digite o nome do aluno: ");
 		aluno.setNome(scan.nextLine());
 		
-		System.out.println("Digite a matrícula do aluno: ");
+		System.out.println("Digite a matrÃ­cula do aluno: ");
 		aluno.setMatricula(scan.nextInt());
 		scan.nextLine();
 		

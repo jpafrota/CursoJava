@@ -1,6 +1,6 @@
-//QUESTÃO 08: Faça um programa que pergunte quanto você ganha por hora e o 
-//número de horas trabalhadas no mês. Calcule e mostre o total do seu salário
-//no referido mês
+// QUESTÃƒO 08: FaÃ§a um programa que pergunte quanto vocÃª ganha por hora e o
+// nÃºmero de horas trabalhadas no mÃªs. Calcule e mostre o total do seu salÃ¡rio
+// no referido mÃªs
 
 package com.jpafrota.cursojava.aula13lab;
 
@@ -13,15 +13,15 @@ public class Questao08 {
 		
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.println("Quanto você recebe por hora de trabalho?");
+		System.out.println("Quanto vocÃª recebe por hora de trabalho?");
 		double valorHora = scan.nextDouble();
 		
-		System.out.println("Quantas horas você trabalhou esse mês?");
+		System.out.println("Quantas horas vocÃª trabalhou esse mÃªs?");
 		double horasTrabalhadas = scan.nextDouble();
 		
 		double salario = valorHora * horasTrabalhadas;
 		
-		System.out.println("Seu salário esse mês será de: R$" + salario + " reais");
+		System.out.println("Seu salÃ¡rio esse mÃªs serÃ¡ de: R$" + salario + " reais");
 		
 	}
 

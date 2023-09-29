@@ -1,4 +1,4 @@
-//QUESTÃO 11: Faça um Programa que peça 2 números inteiros e um número real. 
+//QUESTÃƒO 11: FaÃ§a um Programa que peÃ§a 2 nÃºmeros inteiros e um nÃºmero real.
 //Calcule e mostre:
 //a. o produto do dobro do primeiro com metade do segundo .
 //b. a soma do triplo do primeiro com o terceiro.
@@ -20,7 +20,7 @@ public class Questao11 {
 		System.out.print("Digite outro valor inteiro: ");
 		int valor2 = scan.nextInt();
 		
-		System.out.print("Digite um número real: ");
+		System.out.print("Digite um nÃºmero real: ");
 		double valor3 = scan.nextDouble();
 		
 		System.out.println("a: " + ( (valor1 * 2) * (valor2 / 2) ) );

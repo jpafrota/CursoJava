@@ -1,7 +1,7 @@
 package exercicio11;
 
-import java.util.concurrent.Semaphore;
 import java.util.Random;
+import java.util.concurrent.Semaphore;
 
 public class SemaphoreExercise {
 

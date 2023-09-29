@@ -32,7 +32,7 @@ public class Questao05 {
 			case 1: 
 				System.out.print("Digite o dia do compromisso: ");
 				dia = scan.nextInt();
-				System.out.print("Digite o mês do compromisso: ");
+				System.out.print("Digite o mÃªs do compromisso: ");
 				mes = scan.nextInt();
 				
 				while(hora < 8 || hora > 16) {

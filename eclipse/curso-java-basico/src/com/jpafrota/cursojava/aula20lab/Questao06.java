@@ -25,11 +25,11 @@ public class Questao06 {
 			
 			System.out.println("\nJogador " + ((jogador%2)+1));
 			
-			// Entrada e verificaÁ„o de linha
+			// Entrada e verifica√ß√£o de linha
 			do {
 				System.out.print("Linha: ");
 				linha = scan.nextInt();
-				if(linha < 0) System.out.println("LINHA INV¡LIDA. Tente novamente.");
+				if(linha < 0) System.out.println("LINHA INV√ÅLIDA. Tente novamente.");
 			} while(linha < 0 || linha > 3);
 			
 			if(linha == 0) {
@@ -37,11 +37,11 @@ public class Questao06 {
 				break;
 			}
 			
-			// Entrada e verificaÁ„o de coluna
+			// Entrada e verifica√ß√£o de coluna
 			do{
 				System.out.print("Coluna: ");
 				coluna = scan.nextInt();
-				if(coluna < 0) System.out.println("COLUNA INV¡LIDA. Tente novamente.");
+				if(coluna < 0) System.out.println("COLUNA INV√ÅLIDA. Tente novamente.");
 			} while(coluna < 0 || coluna > 3);
 			
 			if(coluna == 0) {
@@ -49,9 +49,9 @@ public class Questao06 {
 				break;
 			}
 			
-			// VerificaÁ„o e atribuiÁ„o de peÁa no tabuleiro
+			// Verifica√ß√£o e atribui√ß√£o de pe√ßa no tabuleiro
 			if(tabuleiro[linha-1][coluna-1] != null) {
-				System.out.println("PosiÁ„o j· possui valor. Tente novamente\n");
+				System.out.println("Posi√ß√£o j√° possui valor. Tente novamente\n");
 				continue;
 			}
 			else {
@@ -72,7 +72,7 @@ public class Questao06 {
 			
 			System.out.println("");
 			
-			// Impress„o do tabuleiro
+			// Impress√£o do tabuleiro
 			for(int i = 0; i < tabuleiro.length; i++) {
 				System.out.print("| ");
 				for(int j = 0; j < tabuleiro[i].length; j++) {
@@ -83,7 +83,7 @@ public class Questao06 {
 				System.out.println("");
 			}
 			
-			// Verifica se h· ganhadores
+			// Verifica se h√° ganhadores
 			for(int i = 0; i < tabuleiro.length; i++) {
 				
 				if( (tabuleiro[i][0] == tabuleiro[i][1]) 
@@ -104,10 +104,10 @@ public class Questao06 {
 		} while(!ganhou && qtdPecas < 9);
 
 		if(ganhou) {
-			System.out.println("PARAB…NS!!!! VOC  GANHOU (JOGADOR " + ((jogador%2)+1) + ")");
+			System.out.println("PARAB√âNS!!!! voc√™ GANHOU (JOGADOR " + ((jogador%2)+1) + ")");
 		}
 		else {
-			System.out.println("NINGU…M GANHOU ESSA PARTIDA.");
+			System.out.println("NINGU√âM GANHOU ESSA PARTIDA.");
 		}
 		
 	}

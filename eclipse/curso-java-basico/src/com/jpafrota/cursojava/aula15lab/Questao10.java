@@ -9,7 +9,7 @@ public class Questao10 {
 		Scanner scan = new Scanner(System.in);
 		
 		
-		System.out.println("Em que turno você estuda?");
+		System.out.println("Em que turno vocÃª estuda?");
 		String turno = scan.next();
 		
 		/*
@@ -26,7 +26,7 @@ public class Questao10 {
 		}
 		
 		else {
-			System.out.println("Opção inválida.");
+			System.out.println("OpÃ£oo invÃ¡lida.");
 		}*/
 		
 		switch(turno) {
@@ -43,7 +43,7 @@ public class Questao10 {
 			System.out.println("Boa noite dama da noite!!");
 			break;
 		default:
-			System.out.println("Opção inválida.");
+			System.out.println("OpÃ£oo invÃ¡lida.");
 		}
 		
 	}

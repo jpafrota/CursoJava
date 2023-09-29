@@ -9,7 +9,7 @@ public class Teste {
 		
 		Pessoa aluno2 = new Aluno();
 		
-		// Sobrecarga de métodos dentro da classe (polimorfismo)
+		// Sobrecarga de mÃ©todos dentro da classe (polimorfismo)
 		System.out.println(aluno.obterEtiquetaEndereco());
 		System.out.println(aluno2.obterEtiquetaEndereco());
 		System.out.println(professor.obterEtiquetaEndereco());

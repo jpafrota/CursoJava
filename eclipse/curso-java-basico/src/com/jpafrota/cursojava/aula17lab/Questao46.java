@@ -28,7 +28,7 @@ public class Questao46 {
 			
 			for(int i = 1; i <= 5; i++) {
 				
-				System.out.println(i + "º salto: ");
+				System.out.println(i + "Âº salto: ");
 				salto = scan.nextDouble();
 				scan.nextLine();
 				
@@ -52,7 +52,7 @@ public class Questao46 {
 			
 			System.out.println("Melhor salto: " + melhor);
 			System.out.println("Pior salto: " + pior);
-			System.out.printf("Média dos demais saltos: %.2f\n\n", media);
+			System.out.printf("MÃ©dia dos demais saltos: %.2f\n\n", media);
 			
 			soma = 0;
 			melhor = 0;

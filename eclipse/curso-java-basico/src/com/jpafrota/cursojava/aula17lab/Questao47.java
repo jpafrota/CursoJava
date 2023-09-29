@@ -25,7 +25,7 @@ public class Questao47 {
 			
 			for(int i = 1; i <= 7; i++) {
 				
-				System.out.println(i + "ª nota: ");
+				System.out.println(i + "Âª nota: ");
 				salto = scan.nextDouble();
 				scan.nextLine();
 				

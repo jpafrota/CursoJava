@@ -18,14 +18,14 @@ public class Questao25 {
 		String classificacao;
 		
 		for(int i = 1; i <= qtd; i++) {
-			System.out.print("Digite a " + i + "ª idade: ");
+			System.out.print("Digite a " + i + "Âª idade: ");
 			idade = scan.nextDouble();
 			soma += idade;
 		}
 		
 		media = soma / qtd;
 		
-		System.out.println("A média das idades informadas é: " + media);
+		System.out.println("A mÃ©dia das idades informadas Ã© " + media);
 		
 		if(media <= 25) {
 			classificacao = "jovem";
@@ -37,7 +37,7 @@ public class Questao25 {
 			classificacao = "idosa";
 		}
 		
-		System.out.println("Sua turma é " + classificacao);
+		System.out.println("Sua turma Ã© " + classificacao);
 		
 	}
 

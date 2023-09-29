@@ -7,7 +7,7 @@ public class LoopWhile {
 		int i = 1;
 		int max = 10;
 				
-		System.out.println("Contando até: " + max);
+		System.out.println("Contando atÃ©: " + max);
 
 		do {
 			System.out.println("Valor atual: " + i);

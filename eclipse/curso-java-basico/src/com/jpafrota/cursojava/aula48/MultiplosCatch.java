@@ -16,7 +16,7 @@ public class MultiplosCatch {
 				System.out.println("Erro ao dividir por zero.");
 			}
 			catch(ArrayIndexOutOfBoundsException e1) {
-				System.out.println("Erro, posição fora do intervalo do vetor.");
+				System.out.println("Erro, posiÃ§Ã£o fora do intervalo do vetor.");
 			}
 			
 		}

@@ -1,7 +1,7 @@
 package com.jpafrota.cursojava.aula19lab;
 
-import java.util.Scanner;
 import java.text.DecimalFormat;
+import java.util.Scanner;
 
 public class Questao20 {
 
@@ -14,7 +14,7 @@ public class Questao20 {
 		
 		DecimalFormat df = new DecimalFormat("###,###.###");
 		
-		System.out.print("Cotação do Dólar (R$): ");
+		System.out.print("CotaÃ§Ã£o do DÃ³lar (R$): ");
 		cotacao = scan.nextDouble();
 		
 		for(int i = 0; i < vetA.length; i++) {

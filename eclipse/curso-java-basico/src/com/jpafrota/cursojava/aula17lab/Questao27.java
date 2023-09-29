@@ -20,7 +20,7 @@ public class Questao27 {
 			qtdTurmas = scan.nextInt();
 
 			if (qtdTurmas > 40)
-				System.out.println("Erro: não pode haver mais de 40 turmas.\n\n");
+				System.out.println("Erro: nÃ£o pode haver mais de 40 turmas.\n\n");
 
 		} while (qtdTurmas > 40);
 
@@ -34,7 +34,7 @@ public class Questao27 {
 
 		media = soma / qtdTurmas;
 		
-		System.out.println("A media de alunos por turma é de: " + media);
+		System.out.println("A media de alunos por turma Ã© de: " + media);
 
 	}
 

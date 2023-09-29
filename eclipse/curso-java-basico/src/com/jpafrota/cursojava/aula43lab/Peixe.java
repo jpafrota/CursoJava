@@ -18,7 +18,7 @@ public class Peixe extends Animal {
 	
 	public String toString() {
 		
-		String s = "Características: " + this.caracteristicas + "\n";
+		String s = "CaracterÃ­sticas: " + this.caracteristicas + "\n";
 		
 		return super.toString() + s;
 	}

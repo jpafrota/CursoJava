@@ -62,7 +62,7 @@ public class Aluno {
 			info += aux + " ";
 		}
 		
-		info += "\nMédia: " + getMedia();
+		info += "\nMÃ©dia: " + getMedia();
 		if(getMedia() >= 7) info += "\nAPROVADO!";
 		else info += "\nREPROVADO!";
 		

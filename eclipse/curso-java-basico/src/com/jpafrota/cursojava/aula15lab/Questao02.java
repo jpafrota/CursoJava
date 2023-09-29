@@ -9,17 +9,17 @@ public class Questao02 {
 
 		Scanner scan = new Scanner(System.in);
 		
-		System.out.print("Entre com um número: ");
+		System.out.print("Entre com um nÃºmero: ");
 		int valor = scan.nextInt();
 		
 		if(valor > 0) {
-			System.out.println("Este valor é positivo.");
+			System.out.println("Este valor Ã© positivo.");
 		}
 		else if(valor < 0) {
-			System.out.println("Este valor é negativo.");
+			System.out.println("Este valor Ã© negativo.");
 		}
 		else {
-			System.out.println("Zero é um valor neutro.");
+			System.out.println("Zero Ã© um valor neutro.");
 		}
 		
 	}

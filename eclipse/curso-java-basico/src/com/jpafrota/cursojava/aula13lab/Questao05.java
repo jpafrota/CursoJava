@@ -1,4 +1,4 @@
-//QUEST√O 05: FaÁa um programa que converta metros para centÌmetros
+//QUEST√ÉO 05: Fa√ßa um programa que converta metros para cent√≠metros
 
 package com.jpafrota.cursojava.aula13lab;
 
@@ -13,7 +13,7 @@ public class Questao05 {
 		System.out.print("Entre com a medida em metros: ");
 		double metros = scan.nextDouble();
 		
-		System.out.println("A medida em centÌmetros È: " + (metros * 100) + "cm");
+		System.out.println("A medida em cent√≠metros √©: " + (metros * 100) + "cm");
 	}
 
 }

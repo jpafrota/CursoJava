@@ -26,8 +26,8 @@ public class Questao07 {
 		if(valor3 > maior) maior = valor3;
 		else if(valor3 < menor) menor = valor3;
 		
-		System.out.println("O maior número digitado foi: " + maior);
-		System.out.println("O menor número digitado foi: " + menor);
+		System.out.println("O maior nÃºmero digitado foi: " + maior);
+		System.out.println("O menor nÃºmero digitado foi: " + menor);
 		
 	}
 

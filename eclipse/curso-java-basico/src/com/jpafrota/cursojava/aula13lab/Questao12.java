@@ -1,6 +1,6 @@
-//QUEST√O 12: Tendo como dados de entrada a altura de uma pessoa, construa um 
-//algoritmo que calcule seu peso ideal, usando a seguinte fÛrmula: 
-//(72.7*altura) - 58
+// QUEST√ÉO 12: Tendo como dados de entrada a altura de uma pessoa, construa um
+// algoritmo que calcule seu peso ideal, usando a seguinte f√≥rmula:
+// (72.7*altura) - 58
 
 package com.jpafrota.cursojava.aula13lab;
 
@@ -17,7 +17,7 @@ public class Questao12 {
 		
 		double pesoIdeal = (72.7 * altura) - 58;
 		
-		System.out.print("O seu peso ideal È: " + pesoIdeal + " kg");
+		System.out.print("O seu peso ideal √© " + pesoIdeal + " kg");
 		
 	}
 

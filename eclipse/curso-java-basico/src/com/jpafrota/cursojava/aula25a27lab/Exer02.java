@@ -43,7 +43,7 @@ public class Exer02 {
 					conta.consultarSaldo();
 				}
 				else {
-					System.out.println("\nSaque n„o realizado. Saldo insuficiente.\n");
+					System.out.println("\nSaque n√£o realizado. Saldo insuficiente.\n");
 				}
 				break;
 				
@@ -51,23 +51,23 @@ public class Exer02 {
 				System.out.print("Digite o valor a depositar: R$");
 				double valorDeposito = scan.nextDouble();
 				conta.depositar(valorDeposito);
-				System.out.println("\nDepÛsito efetuado com sucesso!");
+				System.out.println("\nDep√≥sito efetuado com sucesso!");
 				conta.consultarSaldo();
 				break;
 			case 4: 
 				if(conta.consultarCheque()) {
-					System.out.println("\nVocÍ est· utilizando cheque especial.");
+					System.out.println("\nvoc√™ est√° utilizando cheque especial.");
 					conta.consultarSaldo();
 				}
 				else {
-					System.out.println("\nVocÍ n„o est· utilizando cheque especial.");
+					System.out.println("\nvoc√™ n√£o est√° utilizando cheque especial.");
 					conta.consultarSaldo();
 				}
 				break;
 			case 0:
 				break;
 			default:
-				System.out.println("\nOpÁ„o inv·lida. Tente novamente.\n");
+				System.out.println("\nOp√ß√£o inv√°lida. Tente novamente.\n");
 				break;
 			}
 			

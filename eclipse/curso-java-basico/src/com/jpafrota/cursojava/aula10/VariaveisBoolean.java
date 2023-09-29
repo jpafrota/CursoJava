@@ -8,7 +8,7 @@ public class VariaveisBoolean {
 		
 		boolean falso = false;
 		
-		System.out.println("O valor de verdadeiro é: " + verdadeiro);
-		System.out.println("O valor de falso é: " + falso);
+		System.out.println("O valor de verdadeiro Ã©: " + verdadeiro);
+		System.out.println("O valor de falso Ã©: " + falso);
 	}
 }

@@ -19,7 +19,7 @@ public class Excecao {
 		catch(ArrayIndexOutOfBoundsException exception){
 			System.out.println("Erro ao tentar acessar indice fora do intervalo.");
 		}
-		System.out.println("Texto pós-exceptions.");
+		System.out.println("Texto pÃ³s-exceptions.");
 		
 	}
 

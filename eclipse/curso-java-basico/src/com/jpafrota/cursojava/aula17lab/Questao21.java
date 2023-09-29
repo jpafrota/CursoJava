@@ -19,7 +19,7 @@ public class Questao21 {
 			
 		}
 		
-		System.out.println("É Primo?");
+		System.out.println("Ã‰ Primo?");
 		System.out.println(ehPrimo);
 		
 	}
